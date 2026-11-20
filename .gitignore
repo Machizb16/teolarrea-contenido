@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+assets/escenas/abras_*
+assets/escenas/mires_*
+assets/escenas/creas_*

@@ -1,0 +1,3905 @@
+[
+ {
+  "id": "n21",
+  "slug": "tarro_polvo",
+  "titulo": "Su mujer guardaba polvo del desierto en un tarro",
+  "gancho": "SU MUJER GUARDABA POLVO DEL DESIERTO EN UN TARRO",
+  "rojo": [
+   "TARRO"
+  ],
+  "planos": [
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "notebook": [
+      "Polvo del lago.",
+      "1971."
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Nunca le preguntó dónde trabajaba."
+   },
+   {
+    "fondo": "kenn",
+    "dur": 3.7,
+    "texto": "Pero lo sabía mucho mejor de lo que él creía."
+   }
+  ],
+  "portada": "garage_window",
+  "descripcion": "Ruth nunca hizo preguntas. Cada viernes esperaba a Walter sin saber adónde iba. Lo que él encontró después de su muerte le demostró que ella siempre había sabido más.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #secretos #amor",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n22",
+  "slug": "detector_mentiras",
+  "titulo": "Mintió al detector de mentiras… y lo pasó",
+  "gancho": "MINTIÓ AL DETECTOR DE MENTIRAS. Y PASÓ.",
+  "rojo": [
+   "PASÓ."
+  ],
+  "planos": [
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 2,
+     "zoom": [
+      1.1,
+      1.25
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Le preguntaron si había visto algo extraño en su vida."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "Dijo que no. Y pensó en la tira de metal de 1952."
+   }
+  ],
+  "portada": "dossier",
+  "descripcion": "Antes de entrar en el programa más secreto de Estados Unidos, a Walter lo sentaron delante de un polígrafo. Había una pregunta que no podía responder con la verdad.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #area51",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n23",
+  "slug": "caravana_34",
+  "titulo": "La vida en la caravana 34 de Groom Lake",
+  "gancho": "ASÍ SE VIVÍA EN LA CARAVANA 34",
+  "rojo": [
+   "34"
+  ],
+  "planos": [
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 3,
+     "luz": [
+      [
+       0.2,
+       0.75
+      ],
+      [
+       0.35,
+       0.8
+      ]
+     ],
+     "zoom": [
+      1.3,
+      1.4
+     ],
+     "centro": [
+      [
+       0.3,
+       0.75
+      ],
+      [
+       0.3,
+       0.75
+      ]
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Litera de arriba. Placa azul. Un compañero de San Antonio."
+   },
+   {
+    "fondo": "card",
+    "dur": 3.7,
+    "texto": "Eddie lo llamaba «Ohio». Fue su mejor amigo."
+   }
+  ],
+  "portada": "desert",
+  "descripcion": "En 1963 la base de Groom Lake no tenía barracones de lujo: tenía caravanas en mitad del desierto. En la 34 empezó la amistad más importante de la vida de Walter.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #amistad",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n24",
+  "slug": "vuelo_sin_destino",
+  "titulo": "Un avión con las ventanillas tapadas",
+  "gancho": "UN AVIÓN CON LAS VENTANILLAS TAPADAS",
+  "rojo": [
+   "TAPADAS"
+  ],
+  "planos": [
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": "Nadie a bordo sabía adónde iba."
+   },
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": "Aterrizó en un lago seco que no salía en ningún mapa."
+   }
+  ],
+  "portada": "desert",
+  "descripcion": "1963. Walter sube a un avión en Burbank sin saber su destino. Cuando por fin le dejan mirar, solo ve sal, montañas y una pista en mitad de la nada.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #misterio",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n25",
+  "slug": "buick",
+  "titulo": "Un motor de Buick arrancaba al avión más rápido",
+  "gancho": "UN MOTOR DE BUICK ARRANCABA AL AVIÓN MÁS RÁPIDO DEL MUNDO",
+  "rojo": [
+   "BUICK"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "sketch": 4,
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_shelf",
+    "dur": 3.7,
+    "texto": "Dato real: los motores J58 se arrancaban con un carro externo movido por motores de coche Buick."
+   },
+   {
+    "fondo": "walter_front",
+    "dur": 3.7,
+    "texto": "En la novela, Walter es quien los mantiene a punto."
+   }
+  ],
+  "portada": {
+   "sketch": 4
+  },
+  "descripcion": "Parece una broma, pero es historia real: los motores del avión espía A-12 necesitaban un carro de arranque externo con motores V8 de Buick. Walter, el mecánico de la novela, conocía ese ruido mejor que nadie.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #historiareal #aviones #guerrafria",
+  "tags_youtube": [
+   "A-12",
+   "historia real",
+   "aviones",
+   "thriller",
+   "novela"
+  ]
+ },
+ {
+  "id": "n26",
+  "slug": "olor",
+  "titulo": "Un olor que no existía",
+  "gancho": "UN OLOR DULCE Y METÁLICO QUE NO EXISTÍA",
+  "rojo": [
+   "NO",
+   "EXISTÍA"
+  ],
+  "planos": [
+   {
+    "fondo": "garage_shelf",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "1947. Un bidón en el patio de Wright Field."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "Veinte años después volvió a olerlo. En Nevada."
+   }
+  ],
+  "portada": "garage_shelf",
+  "descripcion": "Walter tenía nueve años cuando olió algo dulce y metálico junto a un bidón. Nadie más lo notaba. Ese olor volvería a aparecer en el peor lugar posible.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #roswell",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n27",
+  "slug": "hangar_18",
+  "titulo": "La leyenda del Hangar 18",
+  "gancho": "LA LEYENDA DEL HANGAR 18",
+  "rojo": [
+   "18"
+  ],
+  "planos": [
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_wide",
+    "dur": 3.7,
+    "texto": "Dayton, 1948. Un soldado borracho habla demasiado en un bar."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "A la semana siguiente, ya no volvió."
+   }
+  ],
+  "portada": "ghost",
+  "descripcion": "El rumor del Hangar 18 de Wright-Patterson es una de las leyendas más famosas de los ovnis (y es solo eso, una leyenda). En la novela, Walter la escucha de niño en el bar del tío de su mejor amigo.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #hangar18 #leyendas #ovnis",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n28",
+  "slug": "norma_dunbar",
+  "titulo": "La única norma para sobrevivir en la base",
+  "gancho": "LA ÚNICA NORMA PARA SOBREVIVIR EN LA BASE",
+  "rojo": [
+   "NORMA"
+  ],
+  "planos": [
+   {
+    "fondo": "hangar_door",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": "«La gente que dura aquí…»"
+   },
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": "«…es la gente que aprende a no tener curiosidad.»"
+   }
+  ],
+  "portada": "hangar_door",
+  "descripcion": "El capitán Dunbar, jefe de seguridad del Rancho, se lo dejó claro el primer día. Walter lo intentó. De verdad que lo intentó.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #secretos",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n29",
+  "slug": "lindqvist",
+  "titulo": "El científico que nunca afirmaba nada",
+  "gancho": "EL CIENTÍFICO QUE NUNCA AFIRMABA NADA",
+  "rojo": [
+   "NADA"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "sketch": 7,
+     "zoom": [
+      1.0,
+      1.1
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "hangar_door",
+    "dur": 3.7,
+    "texto": "Sueco. Muy alto. Uñas comidas hasta la carne."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Hablaba siempre en condicional. Y estaba dentro aquella noche."
+   }
+  ],
+  "portada": {
+   "sketch": 7
+  },
+  "descripcion": "El doctor Nils Lindqvist dirigía lo que pasaba en el hangar 7. Nunca decía «es». Decía «sería», «podría», «si fuera». Walter tardó años en entender por qué.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #cienciaficcion #misterio",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n30",
+  "slug": "lo_que_vi",
+  "titulo": "No digo lo que era. Digo lo que vi.",
+  "gancho": "«NO DIGO LO QUE ERA. DIGO LO QUE VI.»",
+  "rojo": [
+   "VI.»"
+  ],
+  "planos": [
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "hangar_door",
+    "dur": 3.7,
+    "texto": "Una sala a oscuras. Un cristal."
+   },
+   {
+    "fondo": {
+     "notebook": [
+      "No digo lo que era.",
+      "Digo lo que vi."
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Y una hoja en blanco con una sola mancha de grafito."
+   }
+  ],
+  "portada": "ghost",
+  "descripcion": "Hay cosas que Walter nunca se atrevió a dibujar. En sus cuadernos solo dejó una hoja en blanco y una frase. El resto lo cuenta en la novela.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #cienciaficcion",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n31",
+  "slug": "cuatro_minutos",
+  "titulo": "Cada día perdía cuatro minutos",
+  "gancho": "CADA DÍA PERDÍA 4 MINUTOS. NO ERA EL RELOJ.",
+  "rojo": [
+   "4",
+   "MINUTOS."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "clock": [
+      3,
+      14
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "Entraba en la sala a las 14:00. Su reloj marcaba las 13:56 al salir."
+   },
+   {
+    "fondo": {
+     "notebook": [
+      "No es el reloj.",
+      "Es el sitio."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   }
+  ],
+  "portada": {
+   "clock": [
+    3,
+    14
+   ]
+  },
+  "descripcion": "Sangrados de nariz, un sabor a moneda en la boca y cuatro minutos que desaparecían cada día. Los efectos que Walter apuntaba en secreto.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #cienciaficcion",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n32",
+  "slug": "perros",
+  "titulo": "Los perros empezaron a tenerle miedo",
+  "gancho": "LOS PERROS EMPEZARON A TENERLE MIEDO",
+  "rojo": [
+   "MIEDO"
+  ],
+  "planos": [
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": "Rex, el perro del vecino, dejó de acercarse."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Gruñía cuando Walter le tendía la mano izquierda."
+   }
+  ],
+  "portada": "walter_prof",
+  "descripcion": "Después de cada turno en el hangar 7, algo en Walter era distinto. Él no lo notaba. Los animales, sí.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #perros",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n33",
+  "slug": "dos_cuarenta",
+  "titulo": "Se despertaba cada noche a las 2:40",
+  "gancho": "SE DESPERTABA CADA NOCHE A LAS 2:40",
+  "rojo": [
+   "2:40"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "clock": [
+      2,
+      40
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "Sin pesadillas. Sin ruido. Siempre a la misma hora."
+   },
+   {
+    "fondo": "lights",
+    "dur": 4.1000000000000005,
+    "texto": "Y no era la primera vez que esa hora aparecía en su vida."
+   }
+  ],
+  "portada": {
+   "clock": [
+    2,
+    40
+   ]
+  },
+  "descripcion": "Durante años, Walter se despertó a las 2:40 de la madrugada. Tardó mucho en entender qué tenía de especial esa hora.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #suspense",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n34",
+  "slug": "columpio",
+  "titulo": "El columpio se movía sin viento",
+  "gancho": "EL COLUMPIO SE MOVÍA SIN VIENTO",
+  "rojo": [
+   "VIENTO"
+  ],
+  "planos": [
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": "Kettering, Ohio. 1971. El jardín de su primera casa."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "Ruth también lo vio. Ninguno de los dos dijo nada."
+   }
+  ],
+  "portada": "garage_window",
+  "descripcion": "Ruth soñaba con una casa con columpio y por fin la tuvieron. Lo que no esperaban es que el columpio se moviera solo las noches sin viento.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #suspense",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n35",
+  "slug": "llamada_muda",
+  "titulo": "El teléfono sonaba y nadie hablaba",
+  "gancho": "EL TELÉFONO SONABA Y NADIE HABLABA",
+  "rojo": [
+   "NADIE"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "clock": [
+      2,
+      40
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_wide",
+    "dur": 3.7,
+    "texto": "Siempre de madrugada. Siempre en silencio."
+   },
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": "Walter sabía que, al otro lado, alguien escuchaba."
+   }
+  ],
+  "portada": "garage_wide",
+  "descripcion": "La primera llamada muda llegó la noche en que su mejor amigo no volvió. Cincuenta años después, el teléfono sigue sonando.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #suspense #vigilancia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n36",
+  "slug": "lazar_1989",
+  "titulo": "1989: un hombre habló en televisión",
+  "gancho": "1989: UN HOMBRE HABLÓ EN LA TELE. WALTER APAGÓ LA LUZ.",
+  "rojo": [
+   "1989:"
+  ],
+  "planos": [
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": "Hecho real: en 1989 Bob Lazar contó en televisión que había trabajado al sur de la base."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "En la novela, Walter mira la entrevista a oscuras. Y entiende el precio de hablar."
+   }
+  ],
+  "portada": "headlights",
+  "descripcion": "En 1989 un hombre llamado Bob Lazar salió en televisión asegurando que había trabajado en instalaciones secretas cerca del Área 51 (sus afirmaciones nunca se han verificado). Walter vio esa entrevista con el coche gris aparcado enfrente.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #boblazar #ovnis",
+  "tags_youtube": [
+   "area 51",
+   "bob lazar",
+   "ovnis",
+   "thriller",
+   "novela"
+  ]
+ },
+ {
+  "id": "n37",
+  "slug": "cia_2013",
+  "titulo": "En 2013 la CIA admitió que la base existía",
+  "gancho": "EN 2013 LA CIA ADMITIÓ QUE LA BASE EXISTÍA",
+  "rojo": [
+   "2013"
+  ],
+  "planos": [
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": "Dato real: durante décadas, oficialmente, no existía."
+   },
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": "Walter llevaba cincuenta años sin poder decir dónde había trabajado."
+   }
+  ],
+  "portada": "dossier",
+  "descripcion": "Es historia real: en 2013 unos documentos desclasificados de la CIA reconocieron oficialmente la base de Groom Lake. En la novela, Walter lo ve en las noticias y comprende que el silencio ya no le protege.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #cia #historiareal",
+  "tags_youtube": [
+   "area 51",
+   "cia",
+   "historia real",
+   "thriller",
+   "novela"
+  ]
+ },
+ {
+  "id": "n38",
+  "slug": "mig_1968",
+  "titulo": "Un caza soviético aterrizó en Nevada",
+  "gancho": "UN CAZA SOVIÉTICO ATERRIZÓ EN NEVADA",
+  "rojo": [
+   "SOVIÉTICO"
+  ],
+  "planos": [
+   {
+    "fondo": "radar",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": "Dato real: en 1968 se probaron en secreto aviones MiG soviéticos en la base."
+   },
+   {
+    "fondo": "hangar_door",
+    "dur": 3.7,
+    "texto": "Walter descubrió que el secreto tenía capas. Como las muñecas rusas."
+   }
+  ],
+  "portada": "radar",
+  "descripcion": "En plena Guerra Fría, Estados Unidos consiguió un MiG soviético y lo probó en secreto en Groom Lake. Es historia real. Lo que Walter descubre ese año en la novela, no tanto.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #guerrafria #historiareal #aviones",
+  "tags_youtube": [
+   "guerra fria",
+   "MiG",
+   "historia real",
+   "area 51",
+   "novela"
+  ]
+ },
+ {
+  "id": "n39",
+  "slug": "base_u2",
+  "titulo": "La base se creó para un avión espía",
+  "gancho": "EL ÁREA 51 SE CREÓ PARA UN AVIÓN ESPÍA",
+  "rojo": [
+   "ESPÍA"
+  ],
+  "planos": [
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 3,
+     "zoom": [
+      1.0,
+      1.1
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Dato real: Groom Lake se eligió en 1955 para probar el U-2 de la CIA."
+   },
+   {
+    "fondo": "lights",
+    "dur": 4.1000000000000005,
+    "texto": "Ocho años después llegó Walter. Y no todo lo que vio eran aviones."
+   }
+  ],
+  "portada": {
+   "sketch": 3
+  },
+  "descripcion": "La historia real empieza en 1955: la CIA y Lockheed necesitaban un lugar escondido para probar el U-2. La novela empieza cuando un mecánico de Ohio recibe una oferta que no puede contar.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #historiareal #u2",
+  "tags_youtube": [
+   "area 51",
+   "U-2",
+   "historia real",
+   "novela",
+   "thriller"
+  ]
+ },
+ {
+  "id": "n40",
+  "slug": "lago_borra",
+  "titulo": "Un lago que borra todas las huellas",
+  "gancho": "UN LAGO QUE BORRA TODAS LAS HUELLAS",
+  "rojo": [
+   "HUELLAS"
+  ],
+  "planos": [
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 3,
+     "luz": [
+      [
+       0.65,
+       0.5
+      ],
+      [
+       0.7,
+       0.55
+      ]
+     ],
+     "zoom": [
+      1.2,
+      1.35
+     ],
+     "centro": [
+      [
+       0.65,
+       0.5
+      ],
+      [
+       0.65,
+       0.5
+      ]
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Cada mañana el viento alisaba la sal."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Como si nadie hubiera pasado nunca por allí."
+   }
+  ],
+  "portada": "desert",
+  "descripcion": "El lago seco de Groom Lake se alisa solo con el viento. Para Walter se convirtió en la mejor metáfora de la base: allí todo desaparecía sin dejar rastro.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #misterio",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n41",
+  "slug": "placas",
+  "titulo": "En la base, tu placa decidía lo que podías ver",
+  "gancho": "EN LA BASE, TU PLACA DECIDÍA LO QUE PODÍAS VER",
+  "rojo": [
+   "PLACA"
+  ],
+  "planos": [
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "hangar_door",
+    "dur": 3.7,
+    "texto": "Azul: los aviones. Naranja: algo más."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "En 1970 le ofrecieron una placa de otro color."
+   }
+  ],
+  "portada": "hangar_door",
+  "descripcion": "Compartimentación: cada uno sabía solo lo que necesitaba saber. Walter llevaba la placa azul. Hasta que el hombre de traje gris volvió con una propuesta.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #secretos",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n42",
+  "slug": "cartas_leidas",
+  "titulo": "Alguien leía sus cartas de amor",
+  "gancho": "ALGUIEN LEÍA SUS CARTAS DE AMOR",
+  "rojo": [
+   "AMOR"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "notebook": [
+      "Querida Ruth:",
+      "Aquí todo bien."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": "Cada carta pasaba antes por Burbank."
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "Aprendió a mentir con letra bonita."
+   }
+  ],
+  "portada": {
+   "notebook": [
+    "Querida Ruth:",
+    "Aquí todo bien."
+   ]
+  },
+  "descripcion": "Walter escribía a Ruth cada semana. Sabía que alguien leería cada palabra antes que ella, así que aprendió a contarle mentiras tiernas.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #amor #secretos",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n43",
+  "slug": "trucos_eddie",
+  "titulo": "Mientras miras mis manos…",
+  "gancho": "«MIENTRAS MIRAS MIS MANOS, NO MIRAS LO QUE IMPORTA»",
+  "rojo": [
+   "IMPORTA»"
+  ],
+  "planos": [
+   {
+    "fondo": "card",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": "Eddie hacía trucos de cartas en la caravana."
+   },
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": "Walter tardó años en entender que aquella frase era un aviso."
+   }
+  ],
+  "portada": "card",
+  "descripcion": "Eddie Ruiz siempre llevaba la baraja de su abuelo. Sus trucos hacían reír a todos. Uno de ellos escondía un mensaje.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #amistad",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n44",
+  "slug": "padre_dijo_no",
+  "titulo": "Su padre dijo que no",
+  "gancho": "SU PADRE DIJO QUE NO. NO FUE SUFICIENTE.",
+  "rojo": [
+   "NO."
+  ],
+  "planos": [
+   {
+    "fondo": "garage_wide",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": "1947. El mismo hombre de traje gris visitó a Joe Hayes."
+   },
+   {
+    "fondo": "walter_front",
+    "dur": 3.7,
+    "texto": "«Su padre dijo que no. Y usted está aquí.»"
+   }
+  ],
+  "portada": "garage_wide",
+  "descripcion": "Joe Hayes fue el único que le dijo que no al señor Calloway. Dieciséis años después, el hombre de traje gris llamó a la puerta de su hijo.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #familia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n45",
+  "slug": "crucigrama",
+  "titulo": "La respuesta del crucigrama era un nombre",
+  "gancho": "LA RESPUESTA DEL CRUCIGRAMA ERA UN NOMBRE",
+  "rojo": [
+   "NOMBRE"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "notebook": [
+      "Horizontal 7:",
+      "No envejece."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": "Pruitt hacía crucigramas en el avión."
+   },
+   {
+    "fondo": {
+     "notebook": [
+      "C A L L O W A Y"
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Y le dejó a Walter una pista en uno de ellos."
+   }
+  ],
+  "portada": {
+   "notebook": [
+    "Horizontal 7:",
+    "No envejece."
+   ]
+  },
+  "descripcion": "Un compañero que hacía crucigramas, una letra inclinada hacia atrás y una definición imposible. Una de las pistas más inquietantes de la novela.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #pistas",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n46",
+  "slug": "estetoscopio",
+  "titulo": "Escuchaba los motores con un estetoscopio",
+  "gancho": "SU PADRE ESCUCHABA LOS MOTORES CON UN ESTETOSCOPIO",
+  "rojo": [
+   "ESTETOSCOPIO"
+  ],
+  "planos": [
+   {
+    "fondo": "garage_shelf",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_wide",
+    "dur": 3.7,
+    "texto": "«Los motores no mienten. La gente, sí.»"
+   },
+   {
+    "fondo": "kenn",
+    "dur": 3.7,
+    "texto": "Walter lo guardó toda su vida en el cuarto cajón."
+   }
+  ],
+  "portada": "garage_shelf",
+  "descripcion": "Joe Hayes era capaz de diagnosticar un motor solo con escucharlo. Le enseñó a su hijo todo lo que sabía. Lo que no le contó fue lo que vio en 1947.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #mecanica #familia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n47",
+  "slug": "ocho_lapices",
+  "titulo": "Le quedan ocho lápices",
+  "gancho": "LE QUEDAN 8 LÁPICES",
+  "rojo": [
+   "8"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "notebook": [
+      "Me quedan 8 lápices."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "No puede comprar más sin que lo vean."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Cada lápiz es una cuenta atrás."
+   }
+  ],
+  "portada": {
+   "notebook": [
+    "Me quedan 8 lápices."
+   ]
+  },
+  "descripcion": "Walter escribe su confesión a lápiz, a escondidas, en cuadernos de papelería. Y cuenta los lápices que le quedan como quien cuenta los días.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #suspense #escritura",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n48",
+  "slug": "asistenta",
+  "titulo": "La nueva asistenta solo quería ver el garaje",
+  "gancho": "LA NUEVA ASISTENTA SOLO QUERÍA VER EL GARAJE",
+  "rojo": [
+   "GARAJE"
+  ],
+  "planos": [
+   {
+    "fondo": "garage_wide",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "kenn",
+    "dur": 3.7,
+    "texto": "Preguntó dos veces por la caja de herramientas roja."
+   },
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": "Esa noche, el coche gris aparcó un metro más cerca."
+   }
+  ],
+  "portada": "garage_wide",
+  "descripcion": "Cuando Walter empieza a escribir, todo a su alrededor cambia: llamadas, visitas, un técnico del teléfono que nadie pidió. El cerco se estrecha.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #suspense #vigilancia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n49",
+  "slug": "ventanilla",
+  "titulo": "La ventanilla bajó dos centímetros",
+  "gancho": "LA VENTANILLA BAJÓ DOS CENTÍMETROS",
+  "rojo": [
+   "DOS"
+  ],
+  "planos": [
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 0,
+     "zoom": [
+      1.3,
+      1.45
+     ],
+     "centro": [
+      [
+       0.62,
+       0.42
+      ],
+      [
+       0.63,
+       0.38
+      ]
+     ],
+     "luz": [
+      [
+       0.66,
+       0.38
+      ],
+      [
+       0.66,
+       0.38
+      ]
+     ]
+    },
+    "dur": 3.7,
+    "texto": "No para hablar."
+   },
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": "Para que él supiera que estaban escuchando."
+   }
+  ],
+  "portada": {
+   "sketch": 0,
+   "zoom": [
+    1.3,
+    1.3
+   ],
+   "centro": [
+    [
+     0.6,
+     0.42
+    ],
+    [
+     0.6,
+     0.42
+    ]
+   ],
+   "luz": [
+    [
+     0.66,
+     0.4
+    ],
+    [
+     0.66,
+     0.4
+    ]
+   ]
+  },
+  "descripcion": "El coche gris lleva décadas aparcado frente a su casa. Nunca se baja nadie. Pero una noche, la ventanilla bajó exactamente dos centímetros.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #suspense #vigilancia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n50",
+  "slug": "kessler",
+  "titulo": "Llegó alguien con prisa",
+  "gancho": "DESPUÉS LLEGÓ ALGUIEN CON PRISA",
+  "rojo": [
+   "PRISA"
+  ],
+  "planos": [
+   {
+    "fondo": "hangar_door",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": "Gafas sin montura. Pelo engominado."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "«Otros, no tan pacientes», le había advertido Dunbar."
+   }
+  ],
+  "portada": "hangar_door",
+  "descripcion": "Kessler no tenía la paciencia de Dunbar ni la sonrisa de Calloway. Con él, todo en el hangar 7 empezó a ir demasiado deprisa.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #thriller #suspense",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n51",
+  "slug": "guante",
+  "titulo": "Durante ocho años llevó un guante en una sola mano",
+  "gancho": "DURANTE 8 AÑOS LLEVÓ UN GUANTE EN UNA SOLA MANO",
+  "rojo": [
+   "GUANTE"
+  ],
+  "planos": [
+   {
+    "fondo": "walter_prof",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "Solo en la izquierda. Incluso para abrazar a su hijo."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Su hijo nunca supo por qué."
+   }
+  ],
+  "portada": "walter_prof",
+  "descripcion": "De 1971 a 1979 Walter llevó siempre un guante en la mano izquierda. Esa costumbre le costó la relación con su hijo. La razón está en la novela.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #familia #misterio",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n52",
+  "slug": "medalla",
+  "titulo": "Una medalla en la cuna de su hijo",
+  "gancho": "UNA MEDALLA EN LA CUNA DE SU HIJO",
+  "rojo": [
+   "MEDALLA"
+  ],
+  "planos": [
+   {
+    "fondo": "card",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "Era de Eddie. La medalla de la Virgen de Guadalupe."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "«Cuida al niño.»"
+   }
+  ],
+  "portada": "card",
+  "descripcion": "Antes de desaparecer, Eddie dejó una carta y un encargo. La medalla de su familia acabó colgada en la cuna de Michael.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #amistad #familia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n53",
+  "slug": "entierro_1994",
+  "titulo": "En 1994 volvió. Con la misma cara.",
+  "gancho": "EN 1994 VOLVIÓ. CON LA MISMA CARA.",
+  "rojo": [
+   "1994"
+  ],
+  "planos": [
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "El entierro de Ruth. Lluvia fina."
+   },
+   {
+    "fondo": "headlights",
+    "dur": 3.7,
+    "texto": "Al fondo, un hombre de traje gris que no había envejecido ni un día."
+   }
+  ],
+  "portada": "ghost",
+  "descripcion": "Walter conoció al señor Calloway en 1963. Su padre, en 1947. Y en 1994, en el peor día de su vida, Calloway seguía teniendo la misma cara.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #suspense",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n54",
+  "slug": "sin_nombres",
+  "titulo": "No escribe nombres",
+  "gancho": "NO ESCRIBE NOMBRES. SON LO PRIMERO QUE LEEN ELLOS.",
+  "rojo": [
+   "ELLOS."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "notebook": [
+      "Mi nieto.",
+      "El chico.",
+      "Tú."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "Walter escribe para alguien. Pero nunca dice su nombre."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "¿A quién le está contando todo esto?"
+   }
+  ],
+  "portada": {
+   "notebook": [
+    "Mi nieto.",
+    "El chico.",
+    "Tú."
+   ]
+  },
+  "descripcion": "A lo largo de toda su confesión, Walter se dirige a un «tú». Nunca escribe su nombre. Descubrir quién es forma parte del juego.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #misterio #giro",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n55",
+  "slug": "si_te_obsesiona",
+  "titulo": "Libros para fans del Área 51",
+  "gancho": "SI TE OBSESIONA EL ÁREA 51, LEE ESTO",
+  "rojo": [
+   "51,"
+  ],
+  "planos": [
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "radar",
+    "dur": 3.7,
+    "texto": "Historia real de la Guerra Fría."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Y una pregunta que nunca se responde del todo."
+   }
+  ],
+  "portada": "desert",
+  "descripcion": "Aviones espía reales, una base que oficialmente no existía y un mecánico que vio demasiado. Un thriller de ciencia ficción para quien no puede dejar de leer sobre el Área 51.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #area51 #recomendacionesdelibros #queleer",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n56",
+  "slug": "una_sentada",
+  "titulo": "Una novela para leer de una sentada",
+  "gancho": "276 PÁGINAS QUE SE LEEN DE UNA SENTADA",
+  "rojo": [
+   "276"
+  ],
+  "planos": [
+   {
+    "fondo": "walter_front",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "dossier",
+    "dur": 3.7,
+    "texto": "Capítulos cortos. Un narrador que no tiene nada que perder."
+   },
+   {
+    "fondo": "lights",
+    "dur": 4.1000000000000005,
+    "texto": "Y un final que te va a obligar a releer la primera página."
+   }
+  ],
+  "portada": "walter_front",
+  "descripcion": "«Nadie se va del todo» se lee como una confesión: rápida, íntima y cada vez más inquietante. Ideal para quien busca un thriller que no se pueda soltar.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #queleer #recomendacionesdelibros",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n57",
+  "slug": "nevada_noche",
+  "titulo": "De noche, el desierto no está en silencio",
+  "gancho": "DE NOCHE, EL DESIERTO NO ESTÁ VACÍO",
+  "rojo": [
+   "VACÍO"
+  ],
+  "planos": [
+   {
+    "fondo": "desert",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "lights",
+    "dur": 4.1000000000000005,
+    "texto": "Luces que se paran en seco."
+   },
+   {
+    "fondo": {
+     "sketch": 6,
+     "zoom": [
+      1.0,
+      1.1
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Walter lo apuntó todo. Minuto a minuto."
+   }
+  ],
+  "portada": "lights",
+  "descripcion": "Las noches en Groom Lake eran oscuras, frías y casi silenciosas. Casi.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #ovnis #area51 #misterio",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n58",
+  "slug": "manos",
+  "titulo": "Unas manos excelentes",
+  "gancho": "«UNAS MANOS EXCELENTES»",
+  "rojo": [
+   "EXCELENTES»"
+  ],
+  "planos": [
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 7,
+     "zoom": [
+      1.2,
+      1.35
+     ]
+    },
+    "dur": 3.7,
+    "texto": "La pieza solo reaccionaba con él."
+   },
+   {
+    "fondo": "ghost",
+    "dur": 3.7,
+    "texto": "Y alguien quería saber si eso se heredaba."
+   }
+  ],
+  "portada": "walter_face",
+  "descripcion": "Walter era el mejor mecánico que habían visto. Demasiado bueno. Hay talentos que, en ciertos lugares, te convierten en una pieza más.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #cienciaficcion #misterio",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n59",
+  "slug": "tres_promesas",
+  "titulo": "Hizo tres promesas en su vida",
+  "gancho": "HIZO TRES PROMESAS. SOLO VA A CUMPLIR UNA.",
+  "rojo": [
+   "UNA."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "notebook": [
+      "1.",
+      "2.",
+      "3."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "garage_window",
+    "dur": 3.7,
+    "texto": "Una se la hizo a Ruth. Otra, a Eddie."
+   },
+   {
+    "fondo": "walter_face",
+    "dur": 3.7,
+    "texto": "La tercera es la razón de estos cuadernos."
+   }
+  ],
+  "portada": {
+   "notebook": [
+    "1.",
+    "2.",
+    "3."
+   ]
+  },
+  "descripcion": "Walter Hayes ha roto muchas cosas en su vida, entre ellas un acuerdo de confidencialidad firmado en 1963. Pero hay una promesa que piensa cumplir.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #suspense #familia",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "n60",
+  "slug": "mapa_memoria",
+  "titulo": "Lo dibujó todo de memoria en 1974",
+  "gancho": "LO DIBUJÓ TODO DE MEMORIA. 50 AÑOS DESPUÉS, LO HA CONTADO.",
+  "rojo": [
+   "MEMORIA."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "sketch": 5,
+     "zoom": [
+      1.0,
+      1.1
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "sketch": 3,
+     "zoom": [
+      1.0,
+      1.15
+     ]
+    },
+    "dur": 3.7,
+    "texto": "Planos, aviones, luces. Escondidos durante medio siglo."
+   },
+   {
+    "fondo": {
+     "notebook": [
+      "Escala a ojo.",
+      "Pero no me equivoco."
+     ]
+    },
+    "dur": 3.7,
+    "texto": null
+   }
+  ],
+  "portada": {
+   "sketch": 5
+  },
+  "descripcion": "En 1974 Walter empezó a dibujar en secreto todo lo que recordaba de la base. Diez de esos bocetos aparecen en la novela.",
+  "hashtags": "#booktok #thriller #novela #libros #booktokespaña #bocetos #area51",
+  "tags_youtube": [
+   "thriller",
+   "novela",
+   "area 51",
+   "booktok",
+   "libros"
+  ]
+ },
+ {
+  "id": "a01",
+  "libro": "abras",
+  "slug": "cierrame",
+  "titulo": "Este libro te ordena que lo cierres en la primera página",
+  "gancho": "ESTE LIBRO TE ORDENA QUE LO CIERRES EN LA PRIMERA PÁGINA",
+  "rojo": [
+   "CIERRES"
+  ],
+  "planos": [
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Yo tampoco lo cerré."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "Si sigues leyendo, ya has desobedecido.",
+    "pos": 0.3
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Y no eres el primero."
+   }
+  ],
+  "portada": "faro",
+  "descripcion": "«Ciérrame. Ahora.» Así empieza. Si pasas la página, ya has desobedecido… y el libro lo sabe porque tú mismo se lo dices con cada decisión. ¿Lo cerrarías?",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a02",
+  "libro": "abras",
+  "slug": "numero_0_9",
+  "titulo": "Piensa un número del 0 al 9. Rápido.",
+  "gancho": "PIENSA UN NÚMERO DEL 0 AL 9. RÁPIDO.",
+  "rojo": [
+   "RÁPIDO."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "numeros": {}
+    },
+    "dur": 3.4,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "numeros": {
+      "resaltar": 7,
+      "desde": 0.6
+     }
+    },
+    "dur": 3.7,
+    "texto": "¿El 7? Es el número que más gente elige.",
+    "pos": 0.3
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Este libro te hace trampas a la vista. Y luego te las explica."
+   }
+  ],
+  "portada": {
+   "numeros": {
+    "resaltar": 7,
+    "desde": 0
+   }
+  },
+  "descripcion": "Cuando se pide un número del 0 al 9, el 7 es el que más se elige (Kubovy y Psotka, 1976). «No abras este libro» juega contigo con trucos así y después te los explica. ¿Cuál elegiste tú? 👇",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a03",
+  "libro": "abras",
+  "slug": "doce_palabras",
+  "titulo": "Memoriza estas 12 palabras (sin trampas)",
+  "gancho": "MEMORIZA ESTAS 12 PALABRAS",
+  "rojo": [
+   "12"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "palabras": [
+      "cama",
+      "descanso",
+      "despierto",
+      "cansancio",
+      "soñar",
+      "almohada",
+      "siesta",
+      "manta",
+      "bostezo",
+      "pijama",
+      "roncar",
+      "noche"
+     ]
+    },
+    "dur": 6.5,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "¿Estaba?"
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "Sin mirar: ¿estaba la palabra DORMIR?",
+    "pos": 0.3
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Mucha gente jura que sí. No estaba."
+   }
+  ],
+  "portada": {
+   "palabras": [
+    "cama",
+    "descanso",
+    "despierto",
+    "cansancio",
+    "soñar",
+    "almohada",
+    "siesta",
+    "manta",
+    "bostezo",
+    "pijama",
+    "roncar",
+    "noche"
+   ]
+  },
+  "descripcion": "Con listas así, mucha gente «recuerda» una palabra que nunca apareció (Deese, 1959; Roediger y McDermott, 1995). En «No abras este libro» memorizas doce palabras… y el libro las guarda mejor que tú. ¿La viste? 👇",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a04",
+  "libro": "abras",
+  "slug": "notas_margen",
+  "titulo": "Alguien leyó este libro antes que tú. Y dejó notas.",
+  "gancho": "ALGUIEN LEYÓ ESTE LIBRO ANTES QUE TÚ. Y DEJÓ NOTAS.",
+  "rojo": [
+   "NOTAS."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "¿Tú también?",
+       "No le hagas caso."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": "Notas a lápiz en los márgenes, firmadas como «M.»",
+    "pos": 0.75
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Comentan tus decisiones. A veces, te contestan."
+   }
+  ],
+  "portada": {
+   "pagina": {
+    "notas": [
+     "¿Tú también?",
+     "No le hagas caso."
+    ]
+   }
+  },
+  "descripcion": "El ejemplar ya tenía un lector antes que tú: notas a lápiz con tres símbolos que discuten contigo página a página. «No abras este libro», novela interactiva de Teo Larrea.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a05",
+  "libro": "abras",
+  "slug": "llave_carta",
+  "titulo": "Una llave o una carta: ¿cuál eliges?",
+  "gancho": "UNA LLAVE O UNA CARTA. SOLO PUEDES ELEGIR UNA.",
+  "rojo": [
+   "UNA."
+  ],
+  "planos": [
+   {
+    "fondo": "llave_carta",
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": "llave_carta",
+    "dur": 3.7,
+    "texto": "Elige ya. Sin pensarlo.",
+    "pos": 0.85
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "En el libro, esa elección abre una puerta. Y cambia lo que viene después."
+   }
+  ],
+  "portada": "llave_carta",
+  "descripcion": "En «No abras este libro» tú decides y el libro recuerda lo que decidiste. ¿Llave o carta? Responde antes de pensarlo 👇",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a06",
+  "libro": "abras",
+  "slug": "siete_reglas",
+  "titulo": "Para leer este libro tienes que aceptar siete reglas",
+  "gancho": "PARA LEER ESTE LIBRO TIENES QUE ACEPTAR SIETE REGLAS",
+  "rojo": [
+   "SIETE"
+  ],
+  "planos": [
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Acepta."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "Son extrañas. Y las vas a aceptar.",
+    "pos": 0.3
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "No es un lector. Es parte de la historia. Tú."
+   }
+  ],
+  "portada": "tipos",
+  "descripcion": "Siete reglas raras antes de empezar. Si las aceptas, el juego empieza contigo dentro. «No abras este libro», de Teo Larrea.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a07",
+  "libro": "abras",
+  "slug": "retrato_barnum",
+  "titulo": "Voy a describirte sin conocerte",
+  "gancho": "VOY A DESCRIBIRTE SIN CONOCERTE",
+  "rojo": [
+   "SIN"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Te cuesta confiar.",
+       "Pareces seguro.",
+       "Por dentro, dudas."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": "¿Te has reconocido? A casi todo el mundo le pasa.",
+    "pos": 0.75
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Se llama efecto Barnum (Forer, 1949). El libro lo usa contigo. Y luego te enseña cómo."
+   }
+  ],
+  "portada": {
+   "pagina": {
+    "notas": [
+     "Te cuesta confiar.",
+     "Pareces seguro."
+    ]
+   }
+  },
+  "descripcion": "Un retrato que parece hecho a tu medida… y vale para casi todos: es el efecto Barnum (Forer, 1949). «No abras este libro» no lee la mente: juega contigo y después vacía la manga. ¿Te has reconocido? 👇",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a08",
+  "libro": "abras",
+  "slug": "parrafo_cambiado",
+  "titulo": "Lee esta frase dos veces. Algo ha cambiado.",
+  "gancho": "LEE ESTA FRASE. LUEGO TE ENSEÑO OTRA.",
+  "rojo": [
+   "OTRA."
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Abrió la puerta despacio",
+       "y entró en la cocina."
+      ]
+     }
+    },
+    "dur": 4.2,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Abrió la puerta despacio",
+       "y entró en la casa."
+      ]
+     }
+    },
+    "dur": 4.2,
+    "texto": "¿Qué palabra ha cambiado?",
+    "pos": 0.3
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Mucha gente no lo nota (Sturt, Sanford y otros, 2004)."
+   }
+  ],
+  "portada": {
+   "pagina": {
+    "notas": [
+     "Abrió la puerta despacio",
+     "y entró en la cocina."
+    ]
+   }
+  },
+  "descripcion": "Leemos por encima y no notamos cambios pequeños en un texto (Sturt, Sanford y otros, 2004). En «No abras este libro» lees el mismo párrafo dos veces… ¿lo notaste a la primera? 👇",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a09",
+  "libro": "abras",
+  "slug": "apuesta",
+  "titulo": "Este libro te reta a una apuesta",
+  "gancho": "ESTE LIBRO TE RETA A UNA APUESTA",
+  "rojo": [
+   "APUESTA"
+  ],
+  "planos": [
+   {
+    "fondo": "llave_carta",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "No apuestes."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "«Un tahúr no miente. Elige qué carta enseña.»",
+    "pos": 0.3
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Apuesta contra el libro. A ver quién gana."
+   }
+  ],
+  "portada": "llave_carta",
+  "descripcion": "El narrador es el propio libro, con voz de tahúr educado. Te propone una apuesta… y tú decides si aceptas. «No abras este libro», de Teo Larrea.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a10",
+  "libro": "abras",
+  "slug": "memoria",
+  "titulo": "A ti se te olvidarán cosas. A este libro, ninguna.",
+  "gancho": "A TI SE TE OLVIDARÁN COSAS. A ÉL, NINGUNA.",
+  "rojo": [
+   "NINGUNA."
+  ],
+  "planos": [
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Lo apunta todo."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "Recuerda cada decisión que tomas dentro del libro.",
+    "pos": 0.3
+   },
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": "Y te la devuelve cuando menos lo esperas.",
+    "pos": 0.75
+   }
+  ],
+  "portada": "faro",
+  "descripcion": "«Lo que sí tengo es memoria. Y buena letra.» El libro no te ve ni te oye, pero recuerda lo que elegiste. «No abras este libro», novela interactiva.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a11",
+  "libro": "abras",
+  "slug": "ve_al_fragmento",
+  "titulo": "Un libro que no se lee de principio a fin",
+  "gancho": "ESTE LIBRO NO SE LEE DE PRINCIPIO A FIN",
+  "rojo": [
+   "FIN"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Ve al 12."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": "Fragmentos numerados. Tú eliges adónde saltas.",
+    "pos": 0.75
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "En papel o en Kindle. Sin escribir en el libro."
+   }
+  ],
+  "portada": {
+   "pagina": {
+    "notas": [
+     "Ve al 12."
+    ]
+   }
+  },
+  "descripcion": "Novela interactiva en segunda persona: lees, decides y saltas al fragmento que te toca. Funciona igual en tapa blanda y en Kindle. «No abras este libro».",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a12",
+  "libro": "abras",
+  "slug": "tres_destellos",
+  "titulo": "Tres destellos y una pausa",
+  "gancho": "TRES DESTELLOS Y UNA PAUSA",
+  "rojo": [
+   "PAUSA"
+  ],
+  "planos": [
+   {
+    "fondo": "faro",
+    "dur": 5.0,
+    "texto": null
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Un faro, una casa de veraneo y una imprenta antigua."
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Empieza como un juego."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "Empieza como un juego. Acaba tocándote dentro.",
+    "pos": 0.3
+   }
+  ],
+  "portada": "faro",
+  "descripcion": "El faro de Cabo Silvo marca el ritmo de «No abras este libro»: tres destellos y una pausa. Un juego inquietante que se convierte en una historia muy humana.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a13",
+  "libro": "abras",
+  "slug": "adivina",
+  "titulo": "Pídele a este libro que adivine",
+  "gancho": "PÍDELE A ESTE LIBRO QUE ADIVINE",
+  "rojo": [
+   "ADIVINE"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "numeros": {}
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "llave_carta",
+    "dur": 3.7,
+    "texto": "No lee la mente. Juega contigo.",
+    "pos": 0.85
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Hace trampas a la vista. Y luego vacía la manga."
+   }
+  ],
+  "portada": {
+   "numeros": {}
+  },
+  "descripcion": "El libro no adivina de verdad: hace trucos delante de ti y luego te explica cada uno. ¿Le pedirías que adivinara? «No abras este libro», de Teo Larrea.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a14",
+  "libro": "abras",
+  "slug": "recuerdo_contagiado",
+  "titulo": "Un recuerdo puede no ser del todo tuyo",
+  "gancho": "TU RECUERDO PUEDE NO SER DEL TODO TUYO",
+  "rojo": [
+   "TUYO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Había una tostadora.",
+       "Seguro que sí."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "tipos",
+    "dur": 3.7,
+    "texto": "Si alguien recuerda algo contigo, puedes acabar recordándolo tú.",
+    "pos": 0.75
+   },
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": "Contagio social de la memoria (Roediger, Meade y Bergman, 2001)."
+   }
+  ],
+  "portada": {
+   "pagina": {
+    "notas": [
+     "Había una tostadora."
+    ]
+   }
+  },
+  "descripcion": "Los recuerdos se «contagian»: lo que otro dice que vio puede colarse en tu memoria (Roediger, Meade y Bergman, 2001). «No abras este libro» juega con tu memoria y te lo explica.",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "a15",
+  "libro": "abras",
+  "slug": "regalo_desobedientes",
+  "titulo": "El libro perfecto para quien nunca hace caso",
+  "gancho": "EL LIBRO PERFECTO PARA QUIEN NUNCA HACE CASO",
+  "rojo": [
+   "NUNCA"
+  ],
+  "planos": [
+   {
+    "fondo": "faro",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "pagina": {
+      "notas": [
+       "Ábrelo."
+      ]
+     }
+    },
+    "dur": 3.7,
+    "texto": "Novela interactiva. En papel o en Kindle.",
+    "pos": 0.3
+   },
+   {
+    "fondo": "llave_carta",
+    "dur": 3.7,
+    "texto": "Regálaselo a quien siempre abre lo que no debe.",
+    "pos": 0.85
+   }
+  ],
+  "portada": "faro",
+  "descripcion": "«Libros que te prohíben algo. Y que, en cuanto desobedeces, ya no te sueltan.» ¿A quién se lo regalarías? Etiquétalo 👇",
+  "hashtags": "#NoAbrasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no abras este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros recomendados"
+  ]
+ },
+ {
+  "id": "m01",
+  "libro": "mires",
+  "slug": "mira_10_segundos",
+  "titulo": "Mira esta foto 10 segundos. Luego te pregunto.",
+  "gancho": "MIRA ESTA FOTO 10 SEGUNDOS. LUEGO TE PREGUNTO.",
+  "rojo": [
+   "10"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1991,
+      "cuenta": 10
+     }
+    },
+    "dur": 10.0,
+    "texto": null
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "¿Cuántas velas había en la mesa?",
+    "pos": 0.25
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1991
+     }
+    },
+    "dur": 3.7,
+    "texto": "Eran tres. ¿Acertaste?",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1991
+   }
+  },
+  "descripcion": "«Mírala diez segundos. Luego pasa la página. Y no vuelvas.» Así se juega «No mires este libro»: mirar, recordar y responder sin volver atrás. ¿Acertaste? 👇",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m02",
+  "libro": "mires",
+  "slug": "cambio_estrella",
+  "titulo": "¿Qué ha cambiado entre estas dos fotos?",
+  "gancho": "¿QUÉ HA CAMBIADO ENTRE ESTAS DOS FOTOS?",
+  "rojo": [
+   "CAMBIO.",
+   "DIFERENCIA",
+   "DISTINTA.",
+   "CAMBIADO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1994
+     }
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1994,
+      "cambio": "estrella"
+     }
+    },
+    "dur": 4.5,
+    "texto": "Mírala bien.",
+    "pos": 0.86
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1994,
+      "cambio": "estrella"
+     }
+    },
+    "dur": 3.7,
+    "texto": "Falta la estrella del árbol. ¿Lo viste?",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1994
+   }
+  },
+  "descripcion": "Cuesta mucho ver un cambio entre dos imágenes casi iguales: se llama ceguera al cambio (Simons y Rensink, 2005). «No mires este libro» son doce fotos de Nochebuena casi idénticas… ¿lo viste a la primera? 👇",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m03",
+  "libro": "mires",
+  "slug": "cambio_lampara",
+  "titulo": "Dos fotos, un cambio: ¿lo ves?",
+  "gancho": "DOS FOTOS. UN CAMBIO. ¿LO VES?",
+  "rojo": [
+   "CAMBIO.",
+   "DIFERENCIA",
+   "DISTINTA.",
+   "CAMBIADO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1995
+     }
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1995,
+      "cambio": "lampara"
+     }
+    },
+    "dur": 4.5,
+    "texto": "Mírala bien.",
+    "pos": 0.86
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1995,
+      "cambio": "lampara"
+     }
+    },
+    "dur": 3.7,
+    "texto": "La lámpara está apagada. ¿Lo viste?",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1995
+   }
+  },
+  "descripcion": "Cuesta mucho ver un cambio entre dos imágenes casi iguales: se llama ceguera al cambio (Simons y Rensink, 2005). «No mires este libro» son doce fotos de Nochebuena casi idénticas… ¿lo viste a la primera? 👇",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m04",
+  "libro": "mires",
+  "slug": "cambio_cuadro",
+  "titulo": "Encuentra la diferencia en diez segundos",
+  "gancho": "ENCUENTRA LA DIFERENCIA EN DIEZ SEGUNDOS",
+  "rojo": [
+   "CAMBIO.",
+   "DIFERENCIA",
+   "DISTINTA.",
+   "CAMBIADO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1993
+     }
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1993,
+      "cambio": "cuadro"
+     }
+    },
+    "dur": 4.5,
+    "texto": "Mírala bien.",
+    "pos": 0.86
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1993,
+      "cambio": "cuadro"
+     }
+    },
+    "dur": 3.7,
+    "texto": "El cuadro de la pared está torcido. ¿Lo viste?",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1993
+   }
+  },
+  "descripcion": "Cuesta mucho ver un cambio entre dos imágenes casi iguales: se llama ceguera al cambio (Simons y Rensink, 2005). «No mires este libro» son doce fotos de Nochebuena casi idénticas… ¿lo viste a la primera? 👇",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m05",
+  "libro": "mires",
+  "slug": "cambio_vela",
+  "titulo": "Solo una cosa es distinta: ¿cuál?",
+  "gancho": "SOLO UNA COSA ES DISTINTA. ¿CUÁL?",
+  "rojo": [
+   "CAMBIO.",
+   "DIFERENCIA",
+   "DISTINTA.",
+   "CAMBIADO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1997
+     }
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1997,
+      "cambio": "vela"
+     }
+    },
+    "dur": 4.5,
+    "texto": "Mírala bien.",
+    "pos": 0.86
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1997,
+      "cambio": "vela"
+     }
+    },
+    "dur": 3.7,
+    "texto": "Falta una de las velas. ¿Lo viste?",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1997
+   }
+  },
+  "descripcion": "Cuesta mucho ver un cambio entre dos imágenes casi iguales: se llama ceguera al cambio (Simons y Rensink, 2005). «No mires este libro» son doce fotos de Nochebuena casi idénticas… ¿lo viste a la primera? 👇",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m06",
+  "libro": "mires",
+  "slug": "cambio_cortina",
+  "titulo": "Mismo salón, misma familia, una diferencia",
+  "gancho": "MISMO SALÓN. MISMA FAMILIA. UNA DIFERENCIA.",
+  "rojo": [
+   "CAMBIO.",
+   "DIFERENCIA",
+   "DISTINTA.",
+   "CAMBIADO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1999
+     }
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1999,
+      "cambio": "cortina"
+     }
+    },
+    "dur": 4.5,
+    "texto": "Mírala bien.",
+    "pos": 0.86
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1999,
+      "cambio": "cortina"
+     }
+    },
+    "dur": 3.7,
+    "texto": "La cortina de la izquierda está corrida. ¿Lo viste?",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1999
+   }
+  },
+  "descripcion": "Cuesta mucho ver un cambio entre dos imágenes casi iguales: se llama ceguera al cambio (Simons y Rensink, 2005). «No mires este libro» son doce fotos de Nochebuena casi idénticas… ¿lo viste a la primera? 👇",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m07",
+  "libro": "mires",
+  "slug": "doce_nochebuenas",
+  "titulo": "La misma foto, doce Nochebuenas seguidas",
+  "gancho": "LA MISMA FOTO. DOCE NOCHEBUENAS SEGUIDAS.",
+  "rojo": [
+   "DOCE"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1990
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1995
+     }
+    },
+    "dur": 3.7,
+    "texto": "Mismo salón. Mismo encuadre. Las nueve de la noche.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "Diez segundos de disparador. Y él corriendo a su sitio.",
+    "pos": 0.25
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1990
+   }
+  },
+  "descripcion": "De 1990 a 2001, Tomás Arranz, relojero, hizo cada Nochebuena la misma foto de su familia. Doce fotos casi idénticas. «No mires este libro», de Teo Larrea.",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m08",
+  "libro": "mires",
+  "slug": "nochebuena_1996",
+  "titulo": "De la Nochebuena de 1996 nadie habla",
+  "gancho": "DE LA NOCHEBUENA DE 1996 NADIE HABLA",
+  "rojo": [
+   "1996"
+  ],
+  "planos": [
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "telefono",
+    "dur": 3.7,
+    "texto": "Una nevada. Un apagón. «Papá estaba raro»."
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "«Yo no recuerdo. Yo fijo.»",
+    "pos": 0.25
+   }
+  ],
+  "portada": "camara",
+  "descripcion": "Cada uno la recuerda a su manera. La cámara, en cambio, no recuerda: fija. «No mires este libro», thriller psicológico interactivo con un final luminoso.",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m09",
+  "libro": "mires",
+  "slug": "narra_una_camara",
+  "titulo": "Este libro lo cuenta una cámara de fotos",
+  "gancho": "ESTE LIBRO LO CUENTA UNA CÁMARA DE FOTOS",
+  "rojo": [
+   "CÁMARA"
+  ],
+  "planos": [
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1992
+     }
+    },
+    "dur": 3.7,
+    "texto": "Paciente, precisa y con humor seco.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "«Ponte detrás de mí.»",
+    "pos": 0.25
+   }
+  ],
+  "portada": "camara",
+  "descripcion": "El narrador de «No mires este libro» es la cámara que hizo las fotos. Te pide que te pongas detrás de ella y mires donde nadie mira.",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m10",
+  "libro": "mires",
+  "slug": "no_lo_viste",
+  "titulo": "Mientras miras una cosa, te pierdes otra",
+  "gancho": "MIENTRAS MIRAS UNA COSA, TE PIERDES OTRA",
+  "rojo": [
+   "OTRA"
+  ],
+  "planos": [
+   {
+    "fondo": "cuenta_atras",
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1993
+     }
+    },
+    "dur": 3.7,
+    "texto": "Si te concentras en algo, puedes no ver lo que tienes delante.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "Ceguera por falta de atención (Simons y Chabris, 1999).",
+    "pos": 0.25
+   }
+  ],
+  "portada": "cuenta_atras",
+  "descripcion": "Es el famoso experimento del gorila invisible (Simons y Chabris, 1999). «No mires este libro» se juega con esa idea: las respuestas están en las fotos desde el principio.",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m11",
+  "libro": "mires",
+  "slug": "foto_y_recuerdo",
+  "titulo": "Una foto puede cambiar lo que recuerdas",
+  "gancho": "UNA FOTO PUEDE CAMBIAR LO QUE RECUERDAS",
+  "rojo": [
+   "RECUERDAS"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1990
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "telefono",
+    "dur": 3.7,
+    "texto": "Una foto retocada puede hacerte recordar algo que nunca pasó."
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "Lo estudiaron Wade, Garry, Read y Lindsay (2002).",
+    "pos": 0.25
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1990
+   }
+  },
+  "descripcion": "¿Tu Nochebuena fue como la recuerdas… o como sale en la foto? (Wade, Garry, Read y Lindsay, 2002). «No mires este libro», de Teo Larrea.",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m12",
+  "libro": "mires",
+  "slug": "mira_donde_nadie",
+  "titulo": "Las respuestas están en las fotos desde el principio",
+  "gancho": "LAS RESPUESTAS ESTÁN EN LAS FOTOS DESDE EL PRINCIPIO",
+  "rojo": [
+   "PRINCIPIO"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1997
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "Solo hay que mirar donde nadie mira.",
+    "pos": 0.25
+   },
+   {
+    "fondo": "cuenta_atras",
+    "dur": 4.0,
+    "texto": "Mírala diez segundos. Y no vuelvas atrás.",
+    "pos": 0.22
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1997
+   }
+  },
+  "descripcion": "«Mira donde nadie mira.» Una novela interactiva que se juega mirando: 119 fragmentos y doce fotos de familia. «No mires este libro».",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m13",
+  "libro": "mires",
+  "slug": "regalo_navidad",
+  "titulo": "Un regalo de Navidad que se lee mirando",
+  "gancho": "UN REGALO DE NAVIDAD QUE SE LEE MIRANDO",
+  "rojo": [
+   "NAVIDAD"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1998
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "Secretos de familia guardados a la vista de todos.",
+    "pos": 0.25
+   },
+   {
+    "fondo": "telefono",
+    "dur": 3.7,
+    "texto": "Y un final luminoso. Para leer en Navidad."
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1998
+   }
+  },
+  "descripcion": "Una cena de Nochebuena, una familia y doce fotos casi iguales. «No mires este libro» es el regalo perfecto para estas fiestas 🎄",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m14",
+  "libro": "mires",
+  "slug": "la_familia",
+  "titulo": "Siete personas, una cena, doce años",
+  "gancho": "SIETE PERSONAS. UNA CENA. DOCE AÑOS.",
+  "rojo": [
+   "DOCE"
+  ],
+  "planos": [
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1992
+     }
+    },
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1992
+     }
+    },
+    "dur": 3.7,
+    "texto": "Tomás, el relojero. Pilar. Marta, que lo organiza todo.",
+    "pos": 0.86
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1998
+     }
+    },
+    "dur": 3.7,
+    "texto": "Javier y su cigarro apagado. Luis, el bromista. Sara y Dani.",
+    "pos": 0.86
+   }
+  ],
+  "portada": {
+   "foto": {
+    "anio": 1992
+   }
+  },
+  "descripcion": "La familia Arranz posa cada Nochebuena en el mismo salón de Valdecierva. Tú miras, recuerdas y respondes. «No mires este libro».",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "m15",
+  "libro": "mires",
+  "slug": "anos_noventa",
+  "titulo": "Teléfono de disco, apagones y Nochebuena en familia",
+  "gancho": "TELÉFONO DE DISCO, APAGONES Y NOCHEBUENA EN FAMILIA",
+  "rojo": [
+   "NOCHEBUENA"
+  ],
+  "planos": [
+   {
+    "fondo": "telefono",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "foto": {
+      "anio": 1991
+     }
+    },
+    "dur": 3.7,
+    "texto": "Valdecierva, calle Alfareros. Años noventa.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "camara",
+    "dur": 3.7,
+    "texto": "Una novela que se juega mirando.",
+    "pos": 0.25
+   }
+  ],
+  "portada": "telefono",
+  "descripcion": "La España de los noventa, una familia y una cámara en trípode. «No mires este libro», novela interactiva de Teo Larrea.",
+  "hashtags": "#NoMiresEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no mires este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "libros de navidad"
+  ]
+ },
+ {
+  "id": "c01",
+  "libro": "creas",
+  "slug": "siete_mentiras",
+  "titulo": "Un libro que te avisa: te voy a mentir siete veces",
+  "gancho": "UN LIBRO QUE TE AVISA: TE VOY A MENTIR SIETE VECES",
+  "rojo": [
+   "SIETE"
+  ],
+  "planos": [
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 7
+    },
+    "dur": 3.7,
+    "texto": "Encuéntralas.",
+    "pos": 0.35
+   },
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": "Lo difícil es saber cuál te has creído."
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "«En este libro te voy a mentir siete veces. Encuéntralas.» Julián Ferrer, timador retirado, te cuenta su mejor golpe. ¿Cuántas encontrarías? 👇",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c02",
+  "libro": "creas",
+  "slug": "mentirometro_c02",
+  "titulo": "Mentirómetro: una de estas tres frases es mentira",
+  "gancho": "UNA DE ESTAS TRES FRASES ES MENTIRA",
+  "rojo": [
+   "MENTIRA"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 2.6,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "mentirometro": {
+      "frases": [
+       "El pulpo tiene tres corazones.",
+       "La Gran Muralla se ve desde la Luna a simple vista.",
+       "La miel bien guardada puede durar siglos."
+      ],
+      "mentira": 1,
+      "desde": 5.0
+     }
+    },
+    "dur": 7.5,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 1
+    },
+    "dur": 3.7,
+    "texto": "¿Acertaste? En el libro hay seis Mentirómetros.",
+    "pos": 0.35
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "La Gran Muralla no se ve a simple vista desde la Luna: es un mito muy repetido. En «No creas este libro», un timador te miente siete veces y seis veces el libro se para en un Mentirómetro. ¿Cuál elegiste? 👇",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c03",
+  "libro": "creas",
+  "slug": "mentirometro_c03",
+  "titulo": "Mentirómetro: una de estas tres frases es mentira",
+  "gancho": "UNA DE ESTAS TRES FRASES ES MENTIRA",
+  "rojo": [
+   "MENTIRA"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 2.6,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "mentirometro": {
+      "frases": [
+       "Los murciélagos son ciegos.",
+       "Venus gira al revés que casi todos los planetas.",
+       "Escocia tiene el unicornio como animal nacional."
+      ],
+      "mentira": 0,
+      "desde": 5.0
+     }
+    },
+    "dur": 7.5,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 1
+    },
+    "dur": 3.7,
+    "texto": "¿Acertaste? En el libro hay seis Mentirómetros.",
+    "pos": 0.35
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "Los murciélagos no son ciegos: ven, y muchos además usan la ecolocalización. En «No creas este libro», un timador te miente siete veces y seis veces el libro se para en un Mentirómetro. ¿Cuál elegiste? 👇",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c04",
+  "libro": "creas",
+  "slug": "mentirometro_c04",
+  "titulo": "Mentirómetro: una de estas tres frases es mentira",
+  "gancho": "UNA DE ESTAS TRES FRASES ES MENTIRA",
+  "rojo": [
+   "MENTIRA"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 2.6,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "mentirometro": {
+      "frases": [
+       "Los tiburones son más antiguos que los árboles.",
+       "Un rayo puede caer dos veces en el mismo sitio.",
+       "Solo usamos el 10 % del cerebro."
+      ],
+      "mentira": 2,
+      "desde": 5.0
+     }
+    },
+    "dur": 7.5,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 1
+    },
+    "dur": 3.7,
+    "texto": "¿Acertaste? En el libro hay seis Mentirómetros.",
+    "pos": 0.35
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "Lo del 10 % del cerebro es un mito: usamos todo el cerebro, aunque no todo a la vez. En «No creas este libro», un timador te miente siete veces y seis veces el libro se para en un Mentirómetro. ¿Cuál elegiste? 👇",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c05",
+  "libro": "creas",
+  "slug": "mentirometro_c05",
+  "titulo": "Mentirómetro: una de estas tres frases es mentira",
+  "gancho": "UNA DE ESTAS TRES FRASES ES MENTIRA",
+  "rojo": [
+   "MENTIRA"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 2.6,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "mentirometro": {
+      "frases": [
+       "Los camellos guardan agua en la joroba.",
+       "Los flamencos son rosas por lo que comen.",
+       "Los plátanos son bayas y las fresas no."
+      ],
+      "mentira": 0,
+      "desde": 5.0
+     }
+    },
+    "dur": 7.5,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 1
+    },
+    "dur": 3.7,
+    "texto": "¿Acertaste? En el libro hay seis Mentirómetros.",
+    "pos": 0.35
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "La joroba del camello guarda grasa, no agua. En «No creas este libro», un timador te miente siete veces y seis veces el libro se para en un Mentirómetro. ¿Cuál elegiste? 👇",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c06",
+  "libro": "creas",
+  "slug": "favor_deuda",
+  "titulo": "Si te hacen un favor, te sientes en deuda. Los timadores lo saben.",
+  "gancho": "SI TE HACEN UN FAVOR, TE SIENTES EN DEUDA",
+  "rojo": [
+   "DEUDA"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": "Se llama reciprocidad. Es una de las técnicas de persuasión de Cialdini.",
+    "pos": 0.8
+   },
+   {
+    "fondo": {
+     "rayas": 2
+    },
+    "dur": 3.7,
+    "texto": "Julián la usa en un pueblo entero. Y contigo.",
+    "pos": 0.35
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "El favor que obliga: una de las técnicas de persuasión que describió Cialdini. En «No creas este libro», Julián te enseña cada truco mientras lo usa contigo.",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c07",
+  "libro": "creas",
+  "slug": "verdad_ilusoria",
+  "titulo": "Si lo oyes muchas veces, acabas creyéndolo",
+  "gancho": "SI LO OYES MUCHAS VECES, ACABAS CREYÉNDOLO",
+  "rojo": [
+   "CREYÉNDOLO"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "telegrama": [
+      "EL AGUA CURA STOP",
+      "EL AGUA CURA STOP",
+      "EL AGUA CURA STOP"
+     ]
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": "anuncio",
+    "dur": 3.7,
+    "texto": "Efecto de verdad ilusoria (Hasher, Goldstein y Toppino, 1977).",
+    "pos": 0.86
+   },
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": "Pasa incluso cuando sabes que es falso (Fazio y otros, 2015).",
+    "pos": 0.8
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "Repetir una frase la hace parecer más verdadera, aunque sepamos que es falsa. Julián lo sabía en 1978. «No creas este libro», de Teo Larrea.",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c08",
+  "libro": "creas",
+  "slug": "anclaje_precio",
+  "titulo": "¿Cuánto pagarías por esta botella de agua?",
+  "gancho": "¿CUÁNTO PAGARÍAS POR UNA BOTELLA DE AGUA?",
+  "rojo": [
+   "AGUA?"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "anuncio",
+    "dur": 3.7,
+    "texto": "Primero te dicen un precio altísimo. Luego, otro «barato».",
+    "pos": 0.86
+   },
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": "Ese primer número te ancla (Tversky y Kahneman, 1974).",
+    "pos": 0.8
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "El anclaje del precio: el primer número que oyes condiciona todo lo demás. En Fuensanta del Río alguien vendía agua milagrosa… «No creas este libro».",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c09",
+  "libro": "creas",
+  "slug": "pie_en_la_puerta",
+  "titulo": "Primero un sí pequeñito. Luego, el grande.",
+  "gancho": "PRIMERO UN SÍ PEQUEÑITO. LUEGO, EL GRANDE.",
+  "rojo": [
+   "GRANDE."
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 1
+    },
+    "dur": 3.7,
+    "texto": "Un compromiso pequeño hace más fácil el siguiente.",
+    "pos": 0.35
+   },
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": "Se llama «pie en la puerta» (Freedman y Fraser, 1966).",
+    "pos": 0.8
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "Así se empieza: con algo tan pequeño que no puedes decir que no. «No creas este libro» te enseña los trucos de un timador desde dentro.",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c10",
+  "libro": "creas",
+  "slug": "detectar_mentiras",
+  "titulo": "Crees que sabes cuándo te mienten",
+  "gancho": "CREES QUE SABES CUÁNDO TE MIENTEN",
+  "rojo": [
+   "MIENTEN"
+  ],
+  "planos": [
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 3
+    },
+    "dur": 3.7,
+    "texto": "Detectamos mentiras casi al azar (Bond y DePaulo, 2006).",
+    "pos": 0.35
+   },
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": "Julián cuenta con ello. Y te lo dice a la cara."
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "La ciencia dice que pillamos mentiras casi al azar (Bond y DePaulo, 2006). ¿Serás capaz de encontrar las siete de este libro? 👇",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c11",
+  "libro": "creas",
+  "slug": "bata_y_sello",
+  "titulo": "Una bata y un sello. No hace falta más.",
+  "gancho": "UNA BATA Y UN SELLO. NO HACE FALTA MÁS.",
+  "rojo": [
+   "SELLO."
+  ],
+  "planos": [
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "anuncio",
+    "dur": 3.7,
+    "texto": "Un análisis de laboratorio. Un sello oficial.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": "La autoridad convence antes de que pienses."
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "La autoridad es otra de las técnicas de persuasión de Cialdini. En «No creas este libro» la ves funcionar en un pueblo de la sierra en 1978.",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c12",
+  "libro": "creas",
+  "slug": "plazas_limitadas",
+  "titulo": "Plazas limitadas. Solo hoy.",
+  "gancho": "PLAZAS LIMITADAS. SOLO HOY.",
+  "rojo": [
+   "HOY."
+  ],
+  "planos": [
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "anuncio",
+    "dur": 3.7,
+    "texto": "La prisa y la escasez apagan las preguntas.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": "«En Fuensanta se lo creyeron todos.»"
+   }
+  ],
+  "portada": "sobre",
+  "descripcion": "Cuando algo se acaba, dejamos de pensar. Julián Ferrer lo usó en Fuensanta del Río. ¿Tú habrías picado? 👇 «No creas este libro».",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c13",
+  "libro": "creas",
+  "slug": "mejor_golpe",
+  "titulo": "Un timador de 79 años te cuenta su mejor golpe",
+  "gancho": "UN TIMADOR DE 79 AÑOS TE CUENTA SU MEJOR GOLPE",
+  "rojo": [
+   "GOLPE"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "telegrama": [
+      "VERANO 1978 STOP",
+      "LLEGA FORASTERO STOP",
+      "TRAJE GRIS STOP"
+     ]
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": "«Me dedicaba a convencer a la gente.»",
+    "pos": 0.8
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "Verano de 1978. Un forastero de traje gris llega a un pueblo de cuatrocientos vecinos con un maletín y una idea. «No creas este libro», de Teo Larrea.",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c14",
+  "libro": "creas",
+  "slug": "ines",
+  "titulo": "Una niña de 12 años era la única que no se creía nada",
+  "gancho": "UNA NIÑA DE 12 AÑOS ERA LA ÚNICA QUE NO SE CREÍA NADA",
+  "rojo": [
+   "NADA"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": "anuncio",
+    "dur": 3.7,
+    "texto": "Cuatrocientos vecinos. Un agua milagrosa. Y una niña con preguntas.",
+    "pos": 0.86
+   },
+   {
+    "fondo": "sobre",
+    "dur": 3.7,
+    "texto": "¿Tú habrías sido Inés?",
+    "pos": 0.8
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "En Fuensanta del Río casi todos se dejan convencer. Inés, de 12 años, no se cree nada. ¿Y tú? «No creas este libro».",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ },
+ {
+  "id": "c15",
+  "libro": "creas",
+  "slug": "protegerte_timo",
+  "titulo": "Cómo darte cuenta de un timo, explicado por un timador",
+  "gancho": "CÓMO DARTE CUENTA DE UN TIMO (LO EXPLICA UN TIMADOR)",
+  "rojo": [
+   "TIMO"
+  ],
+  "planos": [
+   {
+    "fondo": "pueblo",
+    "dur": 3.7,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "telegrama": [
+      "PRISA STOP",
+      "FAVORES STOP",
+      "PRECIO ANCLA STOP"
+     ]
+    },
+    "dur": 4.0,
+    "texto": null
+   },
+   {
+    "fondo": {
+     "rayas": 7
+    },
+    "dur": 3.7,
+    "texto": "El libro acaba con un apéndice real: cómo protegerte de un timo.",
+    "pos": 0.35
+   }
+  ],
+  "portada": "pueblo",
+  "descripcion": "Simpatía, autoridad, favores, prisa… Julián te enseña los trucos y el libro termina con consejos reales para que no te la cuelen. «No creas este libro».",
+  "hashtags": "#NoCreasEsteLibro #LibrosProhibidos #TeoLarrea #NovelaInteractiva #ThrillerPsicológico #Booktok #LibrosRecomendados",
+  "tags_youtube": [
+   "no creas este libro",
+   "libros prohibidos",
+   "teo larrea",
+   "novela interactiva",
+   "booktok",
+   "persuasion"
+  ]
+ }
+]
