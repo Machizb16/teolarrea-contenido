@@ -248,20 +248,6 @@ def llave_carta():
     return fn
 
 
-def cubierta(libro='abras', sub=True):
-    """Composición de título en la identidad de la colección (no es la cubierta real)."""
-    L = LIBROS[libro]
-    img = ruido_papel(W, AH, (16, 15, 15), seed=4, k=5); d = ImageDraw.Draw(img)
-    f1 = fnt(ANTON, 230); f2 = fnt(ANTON, 200); f3 = fnt(ANTON, 150)
-    y = AH * 0.40
-    ctext(d, W / 2, y, 'NO', f1, CREMA)
-    d.rectangle((0, y + 290, W, y + 520), fill=ROJO)
-    ctext(d, W / 2, y + 285, L['verbo'], f2, CREMA)
-    ctext(d, W / 2, y + 560, 'ESTE LIBRO', f3, CREMA)
-    if sub: ctext(d, W / 2, y + 790, L['sub'], fnt(PAGI, 50), (200, 194, 184))
-    return still(img, 1.0, 1.05, (0.5, 0.55), (0.5, 0.55), luz=(0.5, 0.6, 0.9, 0.7), amb=0.45)
-
-
 # ====================================================================== NO MIRES ESTE LIBRO
 def _bokeh(img, seed=1, n=26, y0=0.0, y1=0.5):
     rng = np.random.default_rng(seed)
@@ -618,7 +604,7 @@ def anuncio(lineas=('AGUA DE', 'FUENSANTA')):
 
 # ====================================================================== registro
 FONDOS = dict(faro=faro, pagina=pagina, tipos=tipos, numeros=numeros, palabras=palabras, llave_carta=llave_carta,
-              cubierta=cubierta, camara=camara, foto=foto, telefono=telefono, cuenta_atras=cuenta_atras,
+              cubierta=lambda *a, **k: cubierta(*a, **k), camara=camara, foto=foto, telefono=telefono, cuenta_atras=cuenta_atras,
               sobre=sobre, telegrama=telegrama, mentirometro=mentirometro, rayas=rayas, pueblo=pueblo, anuncio=anuncio)
 
 
@@ -655,28 +641,32 @@ def _capa(draw):
     return a[..., :3], a[..., 3:4]
 
 
+def _libro_en_mesa(libro, alto=1400, yc=0.45, pie=True):
+    """La cubierta real del libro sobre fondo oscuro, con sombra."""
+    L = LIBROS[libro]; pw, ph = 1350, 2400; k = pw / W
+    img = ruido_papel(pw, ph, (16, 15, 15), seed=4, k=5)
+    cov = Image.open(os.path.join(T.A_, 'cubiertas', f'{libro}.jpg')).convert('RGB')
+    h = int(alto * k); w = int(h * cov.width / cov.height); cov = cov.resize((w, h), Image.LANCZOS)
+    x0 = (pw - w) // 2; y0 = int(ph * yc - h / 2)
+    sh = Image.new('L', (pw, ph), 0); ImageDraw.Draw(sh).rectangle((x0 + 20, y0 + 30, x0 + w + 20, y0 + h + 30), fill=200)
+    img = Image.composite(Image.new('RGB', img.size, (0, 0, 0)), img, sh.filter(ImageFilter.GaussianBlur(40)))
+    img.paste(cov, (x0, y0))
+    if pie:
+        d = ImageDraw.Draw(img)
+        ctext(d, pw / 2, y0 + h + 70, 'Colección Libros prohibidos · Teo Larrea', fnt(PAGI, 50), (190, 184, 176))
+    return img
+
+
+def cubierta(libro='abras', sub=True):
+    """La cubierta real del libro, con un empuje lento de cámara."""
+    return still(_libro_en_mesa(libro, 1380, 0.5, pie=False), 1.0, 1.06, (0.5, 0.5), (0.5, 0.5), luz=(0.5, 0.5, 0.9, 0.8), amb=0.55)
+
+
 def escena_titulo(libro):
-    L = LIBROS[libro]; bg = ruido_papel(W, AH, (16, 15, 15), seed=4, k=5); B = T.arr(bg)
-    y = AH * 0.30
-    no = _capa(lambda d: ctext(d, W / 2, y, 'NO', fnt(ANTON, 230), CREMA))
-    verbo = _capa(lambda d: ctext(d, W / 2, y + 285, L['verbo'], fnt(ANTON, 200), CREMA))
-    este = _capa(lambda d: ctext(d, W / 2, y + 560, 'ESTE LIBRO', fnt(ANTON, 150), CREMA))
-    def pie(d):
-        ctext(d, W / 2, y + 800, L['sub'], fnt(PAGI, 50), (200, 194, 184))
-        ctext(d, W / 2, y + 960, 'TEO LARREA', fnt(BEBAS, 64), (226, 222, 214))
-        ctext(d, W / 2, y + 1040, 'Colección Libros prohibidos', fnt(PAGI, 40), (160, 154, 146))
-    pie_ = _capa(pie)
+    img = _libro_en_mesa(libro)
     def fn(u, t):
-        a = B.copy()
-        def put(l, t0):
-            nonlocal a
-            k = T.ease((t - t0) / 0.4); a = a * (1 - l[1] * k) + l[0] * l[1] * k
-        put(no, 0.2)
-        w = T.ease((t - 0.7) / 0.45)
-        if w > 0:
-            x1 = int(W * w); a[int(y + 290):int(y + 520), :x1] = np.array(ROJO) / 255
-        put(verbo, 1.0); put(este, 1.4); put(pie_, 2.0)
-        return a * (0.55 + 0.5 * lamp(0.5, 0.45, 0.9, 0.7))
+        a = T.arr(T.kenburns(img, u, 1.0, 1.07, (0.5, 0.47), (0.5, 0.46)))
+        return a * (0.6 + 0.45 * lamp(0.5, 0.45, 0.8, 0.7))
     return fn
 
 

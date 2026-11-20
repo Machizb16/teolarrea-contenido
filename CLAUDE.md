@@ -43,7 +43,7 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
      - No abras: `faro`, `tipos`, `llave_carta`, `{"pagina":{"notas":["nota corta", ...]}}` (máximo 3), `{"numeros":{}}` o `{"numeros":{"resaltar":N,"desde":s}}`, `{"palabras":[12 palabras]}`
      - No mires: `camara`, `{"camara":{"cuenta":10}}`, `telefono`, `cuenta_atras`, `{"foto":{"anio":AAAA}}`, `{"foto":{"anio":AAAA,"cambio":C}}` con C en `estrella`, `lampara`, `cuadro`, `vela` o `cortina`; `{"foto":{"anio":AAAA,"cuenta":10}}`. No uses nunca el año 1996 en una foto.
      - No creas: `sobre`, `pueblo`, `anuncio`, `{"telegrama":["LÍNEA STOP", ...]}`, `{"rayas":N}`, `{"mentirometro":{"frases":[3 frases],"mentira":i,"desde":5.0}}`
-     - Comunes: `{"cubierta":"abras"|"mires"|"creas"}`
+     - Comunes: `{"cubierta":"abras"|"mires"|"creas"}` (la cubierta real del libro, de `assets/cubiertas/`)
    - Colocación del texto: el gancho va arriba en el primer plano, así que el primer plano no puede ser `mentirometro`, `telegrama` ni `anuncio`. Usa `"pos"` (0 = arriba, 1 = abajo) para que el texto no tape el dibujo: unos 0.86 sobre `foto` y `anuncio`, 0.8 sobre `sobre`, 0.75 sobre `tipos`, 0.85 sobre `llave_carta`, 0.3 sobre `pagina` o `numeros`, 0.35 sobre `rayas` y 0.25 sobre `camara`. Sobre `mentirometro` y `palabras`, sin texto.
    - Mentirómetros: frases propias y comprobadas. La mentira tiene que ser un mito conocido y falso, y la solución va en la descripción.
    - Haz commit y push de `ideas.json`.
