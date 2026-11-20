@@ -11,6 +11,7 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
 1. Ejecuta `bash scripts/setup.sh`.
 2. Ejecuta `TRABAJO=/tmp/teolarrea python3 src/diario.py --n 2`. Tarda unos 4 minutos y escribe `/tmp/teolarrea/salida/<fecha>/manifest.json`.
    - Elige solo los libros y las ideas. Al final imprime cuántas ideas quedan sin usar de cada libro.
+   - También elige solo la música (`src/musica.py`: cine, piano, pulso, lofi, pizzicato o ambiente) y el formato de cada pieza (gancho en franja oscura, franja roja o palabra a palabra; texto en cursiva, mayúsculas o máquina de escribir; transiciones por fundido, corte o zoom), distintos entre las dos piezas del día. Quedan anotados en el manifest (`musica`, `formato`).
    - La primera vez que sale un libro de la colección, también genera sus escenas de cierre (es normal que tarde algo más).
    - Si responde «NO QUEDAN IDEAS», haz antes el paso 7 y repite este paso.
 3. Ejecuta `bash scripts/publicar_media.sh /tmp/teolarrea/salida/<fecha>`. Devuelve `BASE_URL`.
@@ -27,7 +28,7 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
      - el resto de campos con sus valores por defecto (`descendants: []`, `smartLinkData: {"ids": []}`, etc.)
    - Si Metricool da un error, NO publiques nada por otra vía: anótalo en el resumen.
 5. Cuando los borradores estén creados, ejecuta `python3 src/diario.py --marcar <id1> <id2>`. Después haz commit de `estado.json` en `main` y súbelo con `git push`.
-6. **Resumen final** para el autor, en español y breve: el libro y el título de cada pieza, el enlace `plannerUrl` de cada borrador e ideas que quedan sin usar de cada libro. Si a algún libro le quedan menos de 4, avisa de que el paso 7 ya se ha hecho o se hará.
+6. **Resumen final** para el autor, en español y breve: el libro, el título y la música de cada pieza, el enlace `plannerUrl` de cada borrador e ideas que quedan sin usar de cada libro. Si a algún libro le quedan menos de 4, avisa de que el paso 7 ya se ha hecho o se hará.
 7. **Ampliar ideas**, solo para los libros a los que les queden menos de 4 sin usar (el paso 2 los marca con «AMPLIAR»):
    - Añade 10 ideas nuevas de ese libro a `ideas.json`, siguiendo el formato de las existentes del mismo libro y las reglas de su ficha.
    - Ids consecutivos: `nXX` para Nadie, `aXX` para No abras, `mXX` para No mires y `cXX` para No creas. Las de la colección llevan el campo `"libro"` (`abras`, `mires` o `creas`).
@@ -46,6 +47,7 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
      - Comunes: `{"cubierta":"abras"|"mires"|"creas"}` (la cubierta real del libro, de `assets/cubiertas/`)
    - Colocación del texto: el gancho va arriba en el primer plano, así que el primer plano no puede ser `mentirometro`, `telegrama` ni `anuncio`. Usa `"pos"` (0 = arriba, 1 = abajo) para que el texto no tape el dibujo: unos 0.86 sobre `foto` y `anuncio`, 0.8 sobre `sobre`, 0.75 sobre `tipos`, 0.85 sobre `llave_carta`, 0.3 sobre `pagina` o `numeros`, 0.35 sobre `rayas` y 0.25 sobre `camara`. Sobre `mentirometro` y `palabras`, sin texto.
    - Mentirómetros: frases propias y comprobadas. La mentira tiene que ser un mito conocido y falso, y la solución va en la descripción.
+   - Opcional: una idea puede fijar su música con `"musica": "piano"` (o otro estilo de `src/musica.py`).
    - Haz commit y push de `ideas.json`.
 
 ## Normas

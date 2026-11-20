@@ -153,14 +153,14 @@ def wrap(text, font, size, maxw):
     lines.append(cur); return lines
 
 
-def overlay(text, font, size, ycenter, color=(244, 246, 248), maxw=820, gap=1.12, red_words=()):
+def overlay(text, font, size, ycenter, color=(244, 246, 248), maxw=820, gap=1.12, red_words=(), red_col=(232, 80, 80)):
     lines = wrap(text, font, size, maxw); f = ImageFont.truetype(font, size)
     img = Image.new('RGBA', (W, AH), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     lh = size * gap; y = ycenter - lh * len(lines) / 2
     for l in lines:
         x = (W - d.textlength(l, font=f)) / 2
         for wd in l.split(' '):
-            col = (232, 80, 80) if wd.strip('.,:;¿?¡!«»').upper() in red_words else color
+            col = red_col if wd.strip('.,:;¿?¡!«»').upper() in red_words else color
             d.text((x, y), wd, font=f, fill=col + (255,)); x += d.textlength(wd + ' ', font=f)
         y += lh
     a = np.asarray(img).astype(np.float32) / 255
@@ -182,11 +182,72 @@ def compose(bg, layers, t_rel):
 
 
 # ---------------------------------------------------------------- render de un vídeo
+# Variantes de formato (spec['estilo']):
+#   gancho: banda (franja oscura) | cinta (franja roja) | palabras (aparece palabra a palabra)
+#   texto:  pagi (cursiva) | anton (mayúsculas) | maquina (máquina de escribir)
+#   trans:  fundido | corte (corte seco con destello) | zoom (empuje al entrar)
+ESTILOS = dict(gancho=['banda', 'cinta', 'palabras'], texto=['pagi', 'anton', 'maquina'], trans=['fundido', 'corte', 'zoom'])
+ROJO_T = np.array([200, 33, 28], np.float32) / 255
+
+
+def _capa(ov, t0, tint=None, fade=True):
+    return dict(frames=[(t0, ov)], t0=t0, tint=tint, fade=fade)
+
+
+def compose2(bg, layers, t):
+    for L in layers:
+        if t < L['t0']: continue
+        ov = L['frames'][0][1]
+        for ts, o in L['frames']:
+            if ts <= t: ov = o
+        k = T.ease((t - L['t0']) / 0.35) if L['fade'] else 1.0
+        rgb, al, sh = ov
+        if L['tint'] is None:
+            bg = bg * (1 - 0.88 * sh * k)
+        else:
+            bg = bg * (1 - 0.95 * sh * k) + L['tint'] * 0.95 * sh * k
+        bg = bg * (1 - al * k) + rgb * al * k
+    return bg
+
+
+def capa_gancho(spec, est):
+    hf, hs = spec.get('hook_font', (BEBAS, 118)); red = spec.get('red', ()); y = AH * 0.25
+    g = est.get('gancho', 'banda')
+    if g == 'cinta':
+        return _capa(overlay(spec['hook'], hf, hs, y, color=(246, 242, 234), red_words=red, red_col=(18, 16, 16)), 0.15, ROJO_T)
+    if g == 'palabras':
+        pal = spec['hook'].split(); fr = []
+        for k in range(1, len(pal) + 1):
+            fr.append((0.1 + 0.16 * (k - 1), overlay(' '.join(pal[:k]), hf, hs, y, red_words=red)))
+        return dict(frames=fr, t0=0.1, tint=None, fade=False)
+    return _capa(overlay(spec['hook'], hf, hs, y, red_words=red), 0.15)
+
+
+def capa_texto(line, pos, est):
+    y = AH * pos; tx = est.get('texto', 'pagi')
+    if tx == 'anton':
+        import coleccion as C
+        return _capa(overlay(line.upper(), C.ANTON, 64, y, maxw=860, gap=1.18), 0.45)
+    if tx == 'maquina':
+        fr = []; n = len(line); paso = 3
+        for k in list(range(paso, n, paso)) + [n]:
+            fr.append((0.4 + k / 32, overlay(line[:k], T.COURB, 56, y, maxw=860, gap=1.2)))
+        return dict(frames=fr, t0=0.4, tint=None, fade=False)
+    return _capa(overlay(line, PAGI, 62, y, maxw=840), 0.5)
+
+
+def _zoom(a, z):
+    if z <= 1.001: return a
+    im = Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8)); w, h = im.size
+    cw, ch = w / z, h / z; x0, y0 = (w - cw) / 2, (h - ch) / 2
+    return np.asarray(im.transform((w, h), Image.EXTENT, (x0, y0, x0 + cw, y0 + ch), Image.BILINEAR)).astype(np.float32) / 255
+
+
 def render_video(vid, spec):
     name = f'{OUT}/v{vid:02d}_body'
     if os.path.exists(name + '.mp4') and not os.environ.get('FORCE'): return
-    hf, hs = spec.get('hook_font', (BEBAS, 118))
-    hook = overlay(spec['hook'], hf, hs, AH * 0.25, red_words=spec.get('red', ()))
+    est = spec.get('estilo', {}); trans = est.get('trans', 'fundido')
+    hook = capa_gancho(spec, est)
     class E: pass
     e = E(); e.tmp = name + '.part.mp4'; e.name = name + '.mp4'
     e.write = lambda f: e.p.stdin.write(f.tobytes())
@@ -198,19 +259,25 @@ def render_video(vid, spec):
     e.p = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}',
                             '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-crf', '18', '-preset', 'veryfast',
                             '-pix_fmt', 'yuv420p', e.tmp], stdin=subprocess.PIPE)
-    fi = 0
+    fi = 0; ns = len(spec['shots'])
     for si, (bgf, dur, line) in enumerate(spec['shots']):
         fn = bgf()
         layers = []
-        if si == 0: layers.append(hook + (0.15,))
+        if si == 0: layers.append(hook)
         if line:
             pos = (spec.get('pos') or [None] * 99)[si] or 0.56
-            layers.append(overlay(line, PAGI, 62, AH * pos, maxw=840) + (0.5,))
-        n = round(dur * FPS)
+            layers.append(capa_texto(line, pos, est))
+        n = round(dur * FPS); ultimo = si == ns - 1
         for i in range(n):
             t = i / FPS; u = i / max(1, n - 1)
-            a = compose(fn(u, t), layers, t)
-            fade = min(1.0, (t + 0.001) / 0.25, (dur - t) / 0.25)
+            bg = fn(u, t)
+            if trans == 'zoom' and si > 0: bg = _zoom(bg, 1 + 0.12 * (1 - T.ease(t / 0.45)))
+            a = compose2(bg, layers, t)
+            if trans == 'fundido' or si == 0:
+                fade = min(1.0, (t + 0.001) / 0.25, (dur - t) / 0.25 if (trans == 'fundido' or ultimo) else 1.0)
+            else:
+                fade = min(1.0, (dur - t) / 0.25) if ultimo else 1.0
+                if trans == 'corte' and i < 3: a = a + (0.35, 0.18, 0.06)[i]
             e.write(T.out_frame(a, fi, fade)); fi += 1
     e.close()
 
@@ -258,7 +325,14 @@ E = os.path.join(T.A_, 'escenas')
 def assemble(vid, spec):
     total_body = sum(d for _, d, _ in spec['shots'])
     total = total_body + 0.8 + 5.0 + 4.0
-    make_audio(vid, spec, total, total_body + 0.8)
+    if spec.get('musica'):
+        import musica as Mu
+        from scipy.io import wavfile
+        cortes = list(np.cumsum([d for _, d, _ in spec['shots']])[:-1])
+        S = Mu.pista(spec['musica'], vid * 7919 + len(spec['slug']), total, total_body + 0.8, cortes)
+        wavfile.write(f'{OUT}/v{vid:02d}.wav', Mu.SR, (S * 32767).astype(np.int16))
+    else:
+        make_audio(vid, spec, total, total_body + 0.8)
     lst = f'{OUT}/v{vid:02d}.txt'
     cierre = spec.get('cierre') or [f'{E}/a20.mp4', f'{E}/a21.mp4', f'{E}/b22.mp4']
     open(lst, 'w').write(f"file 'v{vid:02d}_body.mp4'\n" + ''.join(f"file '{c}'\n" for c in cierre))

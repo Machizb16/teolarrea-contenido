@@ -83,18 +83,33 @@ def portada(idea, num, path):
     img.convert('RGB').save(path, quality=90)
 
 
+def variantes(idea, evitar=()):
+    """Música y formato de cada pieza: al azar, pero distintos entre las piezas del mismo día."""
+    import random, series as S, musica as Mu
+    r = random.Random(idea['id'] + datetime.date.today().isoformat())
+    libro = libro_de(idea)
+    musicas = [m for m in Mu.POR_LIBRO[libro] if m not in [e['musica'] for e in evitar]] or Mu.POR_LIBRO[libro]
+    est = {k: r.choice(v) for k, v in S.ESTILOS.items()}
+    if any(e['gancho'] == est['gancho'] for e in evitar):
+        est['gancho'] = r.choice([g for g in S.ESTILOS['gancho'] if g not in [e['gancho'] for e in evitar]])
+    est['musica'] = idea.get('musica') or r.choice(musicas)
+    return est
+
+
 def generar(ideas_sel, todas):
     import series as S, coleccion as C
     hoy = datetime.date.today().isoformat()
     out = os.path.join(os.environ['TRABAJO'], 'salida', hoy); os.makedirs(out, exist_ok=True)
-    man = []
+    man = []; usados = []
     for idea in ideas_sel:
         libro = libro_de(idea)
+        est = variantes(idea, usados); usados.append(est)
         num = [i['id'] for i in todas].index(idea['id']) + 1
         spec = dict(slug=idea['slug'], hook=idea['gancho'], red=tuple(r.strip('.,:;¿?¡!«»').upper() for r in idea.get('rojo', [])),
                     pos=[p.get('pos') for p in idea['planos']],
                     shots=[((lambda s=p['fondo'], d=p.get('dur', 3.7): fondo(s, d)), p.get('dur', 3.7), p.get('texto'))
                            for p in idea['planos']])
+        spec['estilo'] = est; spec['musica'] = est['musica']
         if libro != 'nadie':
             spec['hook_font'] = (C.ANTON, 104); spec['cierre'] = C.asegurar_cierres(libro)
         S.render_video(num, spec); S.assemble(num, spec)
@@ -109,10 +124,10 @@ def generar(ideas_sel, todas):
             C.portada(idea, cov)
             texto = f'{idea["descripcion"]}\n\n{CTA_COL[libro]}\n{CTA_FIN}\n\n{idea["hashtags"]}'
             tags = idea.get('tags_youtube', TAGS_COL)
-        man.append(dict(id=idea['id'], libro=libro, slug=idea['slug'], video=video, portada=cov,
+        man.append(dict(id=idea['id'], libro=libro, slug=idea['slug'], musica=est['musica'], formato=est, video=video, portada=cov,
                         titulo_tiktok=idea['titulo'][:90], titulo_youtube=(idea['titulo'][:88] + ' #shorts'),
                         texto=texto, tags_youtube=tags))
-        print('generada', idea['id'], flush=True)
+        print('generada', idea['id'], est, flush=True)
     json.dump(man, open(os.path.join(out, 'manifest.json'), 'w'), ensure_ascii=False, indent=1)
     print('MANIFEST', os.path.join(out, 'manifest.json'))
 
