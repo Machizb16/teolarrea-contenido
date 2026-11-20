@@ -17,6 +17,7 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
    - Si responde «NO QUEDAN IDEAS», haz antes el paso 7 y repite este paso.
 3. Ejecuta `bash scripts/publicar_media.sh /tmp/teolarrea/salida/<fecha>`. Devuelve `BASE_URL`.
    - Comprueba con `curl -sI` que `BASE_URL/<archivo>.mp4` responde 200.
+   - El script también publica `feed.xml` en la rama `media` (RSS con los vídeos del día). IFTTT lo lee cada hora y manda cada vídeo a la bandeja de borradores de TikTok del autor; no tienes que hacer nada más.
 4. Por cada pieza del manifest:
    **a) TikTok: borrador en Metricool.** Llama a `createScheduledPost`:
    - **date / publicationDate:** la primera pieza para mañana a las 13:00 y la segunda para mañana a las 20:00, hora de Madrid. Son solo horas orientativas.
