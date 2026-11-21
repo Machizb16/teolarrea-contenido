@@ -1,9 +1,10 @@
 # Contenido diario de Teo Larrea: procedimiento
 
-Este repositorio genera cada día **2 piezas de vídeo vertical** para promocionar los libros de Teo Larrea. Cada día se eligen al azar **dos libros distintos** entre cuatro: «Nadie se va del todo» (`nadie`) y los tres de la colección Libros prohibidos: «No abras este libro» (`abras`), «No mires este libro» (`mires`) y «No creas este libro» (`creas`). Cada pieza se deja como **BORRADOR en Metricool** para TikTok y como **vídeo PRIVADO en YouTube** (subido con Zapier) para YouTube Shorts. **Nunca publiques nada directamente**: el autor revisa y publica a mano.
+Este repositorio genera cada día **2 piezas de vídeo vertical** para promocionar los libros de Teo Larrea. Cada día se eligen al azar **dos libros distintos** entre cuatro: «Nadie se va del todo» (`nadie`) y los tres de la colección Libros prohibidos: «No abras este libro» (`abras`), «No mires este libro» (`mires`) y «No creas este libro» (`creas`). Cada pieza se deja como **BORRADOR en Buffer** para TikTok (subido con Zapier) y como **vídeo PRIVADO en YouTube** (subido con Zapier) para YouTube Shorts. **Nunca publiques nada directamente**: el autor revisa y publica a mano.
 
 ## Datos fijos
-- **Metricool:** blogId `7495260`, zona horaria `Europe/Madrid`, red `tiktok` (y `youtube` solo como alternativa si falla Zapier).
+- **Buffer (por Zapier):** organización `6b00e2681362765e2282a51e`, canal TikTok `6b00e2d0ece6dfde5f3c1b2e`. Los borradores no tienen límite mensual.
+- **Metricool:** blogId `7495260`, zona horaria `Europe/Madrid`. Solo es la alternativa si fallan Buffer o Zapier.
 - **Zapier:** app YouTube (`YouTubeV4CLIAPI`), acción `upload_video`. El plan gratuito permite 5 subidas al día y 100 tareas al mes.
 - **Repositorio:** `Machizb16/teolarrea-contenido`. Rama `main` para el código, las ideas y el estado; rama `media` para los vídeos del día, que se sobrescribe en cada ejecución.
 - **Fichas y reglas de spoilers:** `docs/libro.md` («Nadie se va del todo») y `docs/coleccion.md` (los otros tres). Lee la que corresponda antes de crear ideas nuevas y usa SOLO lo que pone en ella.
@@ -17,17 +18,16 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
    - Si responde «NO QUEDAN IDEAS», haz antes el paso 7 y repite este paso.
 3. Ejecuta `bash scripts/publicar_media.sh /tmp/teolarrea/salida/<fecha>`. Devuelve `BASE_URL`.
    - Comprueba con `curl -sI` que `BASE_URL/<archivo>.mp4` responde 200.
-   - El script también publica `feed.xml` en la rama `media` (RSS con los vídeos del día). IFTTT lo lee cada hora y manda cada vídeo a la bandeja de borradores de TikTok del autor; no tienes que hacer nada más.
+   - El script también publica `feed.xml` (RSS de los vídeos del día). Ahora no se usa; no hagas nada con él.
 4. Por cada pieza del manifest:
-   **a) TikTok: borrador en Metricool.** Llama a `createScheduledPost`:
-   - **date / publicationDate:** la primera pieza para mañana a las 13:00 y la segunda para mañana a las 20:00, hora de Madrid. Son solo horas orientativas.
-   - **info:**
-     - `draft: true` (OBLIGATORIO), `autoPublish: true`
-     - `media: [BASE_URL/<id>_<slug>.mp4]`, `videoThumbnailUrl: BASE_URL/<id>_<slug>.jpg`
-     - `providers: [{"network":"tiktok"}]` (solo TikTok: YouTube va por Zapier para no gastar el cupo gratuito de Metricool)
+   **a) TikTok: BORRADOR en Buffer con Zapier.** Llama a `execute_zapier_write_action` con `selected_api: "BufferCLIAPI"`, `action: "update"` (Add to Queue) y estos `params`:
+     - `organizationId: "6b00e2681362765e2282a51e"` · `channelId: "6b00e2d0ece6dfde5f3c1b2e"` (teolarreabooks TikTok)
+     - `method: "draft"` (OBLIGATORIO: se guarda como borrador, no se publica) · `attachment: "video"`
      - `text`: el campo `texto` del manifest
-     - `tiktokData`: `{"privacyOption":"PUBLIC_TO_EVERYONE","commercialContentOwnBrand":true,"commercialContentThirdParty":false,"title":<titulo_tiktok>,"isAigc":true,"autoAddMusic":false,"disableComment":false,"disableDuet":false,"disableStitch":false,"photoCoverIndex":0}`
-     - el resto de campos con sus valores por defecto (`descendants: []`, `smartLinkData: {"ids": []}`, etc.)
+     - `dynamic_properties: {"video": "BASE_URL/<id>_<slug>.mp4", "scheduling_type": "direct"}`
+   - Si Buffer falla, crea en su lugar un borrador de TikTok en Metricool con `createScheduledPost` y dilo en el resumen:
+     - **date / publicationDate:** la primera pieza para mañana a las 13:00 y la segunda a las 20:00, hora de Madrid.
+     - **info:** `draft: true` (OBLIGATORIO), `autoPublish: true`, `media: [BASE_URL/<id>_<slug>.mp4]`, `videoThumbnailUrl: BASE_URL/<id>_<slug>.jpg`, `providers: [{"network":"tiktok"}]`, `text`: `texto`, `tiktokData`: `{"privacyOption":"PUBLIC_TO_EVERYONE","commercialContentOwnBrand":true,"commercialContentThirdParty":false,"title":<titulo_tiktok>,"isAigc":true,"autoAddMusic":false,"disableComment":false,"disableDuet":false,"disableStitch":false,"photoCoverIndex":0}` y el resto de campos por defecto (`descendants: []`, `smartLinkData: {"ids": []}`, etc.).
 
    **b) YouTube Shorts: vídeo PRIVADO con Zapier.** Llama a `execute_zapier_write_action` con `selected_api: "YouTubeV4CLIAPI"`, `action: "upload_video"` y estos `params`:
      - `title`: `titulo_youtube` · `description`: `texto` · `tags`: `tags_youtube`
@@ -38,7 +38,7 @@ Este repositorio genera cada día **2 piezas de vídeo vertical** para promocion
    - Si Zapier falla (sin conexión, cuota o error), crea en su lugar un borrador de YouTube en Metricool como en a), con `providers: [{"network":"youtube"}]` y `youtubeData`: `{"title":<titulo_youtube>,"type":"short","privacy":"public","tags":<tags_youtube>,"category":"ENTERTAINMENT","madeForKids":false,"isAiGeneratedContent":true}`, y dilo en el resumen.
    - Si Metricool también da un error, NO publiques nada por otra vía: anótalo en el resumen.
 5. Cuando estén creados los borradores y los vídeos privados, ejecuta `python3 src/diario.py --marcar <id1> <id2>`. Después haz commit de `estado.json` en `main` y súbelo con `git push`.
-6. **Resumen final** para el autor, en español y breve: el libro, el título y la música de cada pieza, el enlace `plannerUrl` de cada borrador de TikTok, el enlace de cada vídeo privado de YouTube e ideas que quedan sin usar de cada libro. Si a algún libro le quedan menos de 4, avisa de que el paso 7 ya se ha hecho o se hará.
+6. **Resumen final** para el autor, en español y breve: el libro, el título y la música de cada pieza, si cada borrador de TikTok quedó en Buffer (o en Metricool, con su `plannerUrl`), el enlace de cada vídeo privado de YouTube e ideas que quedan sin usar de cada libro. Si a algún libro le quedan menos de 4, avisa de que el paso 7 ya se ha hecho o se hará.
 7. **Ampliar ideas**, solo para los libros a los que les queden menos de 4 sin usar (el paso 2 los marca con «AMPLIAR»):
    - Añade 10 ideas nuevas de ese libro a `ideas.json`, siguiendo el formato de las existentes del mismo libro y las reglas de su ficha.
    - Ids consecutivos: `nXX` para Nadie, `aXX` para No abras, `mXX` para No mires y `cXX` para No creas. Las de la colección llevan el campo `"libro"` (`abras`, `mires` o `creas`).
